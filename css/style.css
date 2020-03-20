@@ -1,0 +1,39 @@
+
+/* OStraining.com */
+.container {
+    position: relative;
+background-image: url("../images/gym.jpg");
+background-repeat: no-repeat;
+background-position: center;
+width:800px;
+height:600px;
+border:2px;
+    
+}
+h1 { 
+    font-size:24px;
+    position:absolute;
+    text-align: 1px;
+    letter-spacing:1px;
+    left:10px;
+    bottom:15px;
+}
+ <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+
+  
+
