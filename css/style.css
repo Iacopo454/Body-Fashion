@@ -1,39 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Exo|Roboto&display:100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700,');
 
-/* OStraining.com */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* --------------------------Headings */
 .container {
-    position: relative;
+position: relative;
+border:2px;
+
+}
+.jumbotron { 
+  
+    background-color:transparent;
+    }
+.backImage {
 background-image: url("../images/gym.jpg");
 background-repeat: no-repeat;
-background-position: center;
-width:800px;
-height:600px;
-border:2px;
-    
+background-position: top;
+width: 100%;
+height:100vh;
 }
+
 h1 { 
-    font-size:24px;
-    position:absolute;
-    text-align: 1px;
+    font-family: 'Roboto', sans-serif;
+    width:90%;
+    position: absolute;
+    font-size:20px;
     letter-spacing:1px;
-    left:10px;
-    bottom:15px;
+    text-align:left;
+    
+    color:rgba(15, 15, 15, 0.918);
 }
- <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+/* -------------------Block-divider--------- */
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
+.block-divider--orange {
+    width:150px;
+    height:5px;
+    font-size: 5px;
+    background-color: orange;
+}
 
 
-  
 
+
+
+  /* -----------------------------Buttons */
+
+ 
+ 
+
+
+
+
+
+      /* ----------Divs---------------- */
+
+
+
+   
+    
+  /*------------------------------------------ Navbar */
+
+.collapse navbar-collapse {
+
+
+}
