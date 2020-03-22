@@ -26,19 +26,59 @@
 			class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
 			<h2 class="my-0 mr-md-auto font-weight-uppercase">Body Fashion</h2>
 			<nav class="my-2 my-md-0 mr-md-3">
-				<span><a class="p-2 text-dark" href="index.html">Home</a></span>
+				<span><a class="p-2 text-dark" href="signup.html">Home</a></span>
 				<a class="p-2 text-dark" href="#">Meet the team</a>
 				<a class="p-2 text-dark" href="#">Support</a>
 				<a class="p-2 text-dark" href="#">Pricing</a>
 			</nav>
-			<a class="btn btn-lg .navbar-btn btn-primary" href="#">Sign up</a>
+ <!------------------------- ------------------Sign up button-trigger -->
+
+ <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Sign Up
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------------------------------------------------- Modal -->
+			<!-- <a class="btn btn-lg .navbar-btn btn-primary" href="signup.html" alt="_blank"></a> -->
 		</div>
 	</div>
 
 	<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
 		<h2 class="display-4">Pricing</h2>
-		<p class="lead text-left">Quickly build an effective pricing table for your potential customers with this Bootstrap
-			example. It’s built with default Bootstrap components and utilities with little customization.</p>
+		<h3 class="lead text-left header">Hurry up and join our gym today!</h3>
 	</div>
 
 
@@ -88,11 +128,82 @@
 		</div>
 	</div>
 
+<footer class="container-fluid">
+		<div id="footer-details" class="row">
+			<div class="col-sm-4">
+				<h5 class="uppercase general-sub">About</h5>
+				<p class="inline-block">
+					
+				</p>
+			</div>
+		
+			</div>
+			<div class="col-sm-4">
+				<h5 class="uppercase general-sub">Social</h5>
+				<ul class="list-inline social-links">
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fab fa-facebook" aria-hidden="true"></i>
+							<span class="sr-only">Facebook</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fab fa-twitter" aria-hidden="true"></i>
+							<span class="sr-only">Twitter</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fab fa-linkedin" aria-hidden="true"></i>
+							<span class="sr-only">LinkedIn</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fab fa-pinterest" aria-hidden="true"></i>
+							<span class="sr-only">Pinterest</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fab fa-instagram" aria-hidden="true"></i>
+							<span class="sr-only">Instagram</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="www.youtube.com">
+							<i class="fab fa-youtube" aria-hidden="true"></i>
+							<span class="sr-only">YouTube</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		
+	</footer>
 
 
 
 
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+	</script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+	</script>
 </body>
 
 </html>
+
+
+
+
