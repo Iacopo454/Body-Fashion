@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: black; 
+    background-color:black; 
 }
 
 
@@ -59,53 +59,55 @@ div h5 {
 
 
 /*--------------------- Containers */
-.container1,div,h2,p{
-    
-    display:inline-block;
 
-
-}
-.container2,div,h2,p { 
-    display:inline-block;
-    
-
-}
-
-
-
-
-/* .centerText {
-    margin: auto; 
-    text-align: center;
+/* div{ 
+    display: inline-block;
 } */
-/* -------------------------------------------- */
+
+.Wrapper {
+height:50px;
+padding:10px;
+
+}
+
+
+.container1 {
+    
+    display:inline-block;
+    width:48%;
+    padding-right:10px;
+}
 
 
 
+.container2 { 
+    display:inline-block;
+    width:49%;
+    padding-right:10px;
+}
+    
+    
 
+footer { 
+    margin:10px;
 
+    
+}
+p {
+    font-size: 30px;
+    letter-spacing: 2px;
+    width: 500px;
+    text-align: left;
 
-
-
-
-
+}
 
 
   /* -----------------------------Buttons */
 
  
- 
-
-
-
-
-
       /* ----------Divs---------------- */
 
 
-
-   
-    
   /*------------------------------------------ Navbar */
 
 .collapse navbar-collapse {
