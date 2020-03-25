@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Exo|Roboto&display:100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700,');
+@import url('https://fonts.googleapis.com/css?family=Exo|Roboto=|Indie+Flower&display=swap" rel="stylesheet">display:100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700,');
 
 body {
     font-family: 'Roboto', sans-serif;
     background-color:black; 
 }
 
-
-
-
-/* --------------------------Headings */
+/*------------------------------- Heading */
+.navbar {
+    color: purple;
+}
 
 
 
@@ -26,30 +26,33 @@ body {
 }
 
 
-/* --------------testing another approach------------- */
 
 
 
-
-
+/* -----Jumbotron-------------------------- */
 .jumbotron { 
     
     padding:0 auto;
 background-image: url("../images/gym.jpg");
 background-size: cover;
+box-sizing:border-box;
+
 }
-.jumbotron h1 {
+.jumbotron h1 {font-family: 'Indie+Flower';
     width:33%;
 }
 .jumbotron p {
+    color:#5ee27c;
     font-family: 'Roboto',sans-serif;
     font-size: 20%;
     height:20%;
 }
 
 /*------------------------------ Divs-color------ */
-    div h2 { 
+
+div h2 { 
         color:#5ee27c;
+        font-size: xlarge;
     }
 div p { color: lemonchiffon;
 }
@@ -58,59 +61,46 @@ div h5 {
 }
 
 
-/*--------------------- Containers */
-
-/* div{ 
+/*--------------------- ---------------Containers index.html */
+.Wrapper { 
     display: inline-block;
-} */
-
-.Wrapper {
-height:50px;
+ height:1200px;
+width:90%;
 padding:10px;
-
 }
-
-
 .container1 {
-    
-    display:inline-block;
-    width:48%;
-    padding-right:10px;
+display:inline-block;
+width:48%;
+
+
 }
-
-
-
 .container2 { 
     display:inline-block;
-    width:49%;
-    padding-right:10px;
+    width:48%;
 }
-    
-    
-
-footer { 
-    margin:10px;
 
     
-}
-p {
-    font-size: 30px;
-    letter-spacing: 2px;
-    width: 500px;
-    text-align: left;
 
+
+
+ /* ----------------------------Containers Meet.html--------- */
+ .Folder1 {
+     height:50px;
+     padding:10px;
+ }
+.Box1  .Box2 .Box3 .Box4 .Box5{
+    width:20%;
+    display:inline-block;
 }
+
+/* --------Footer-------- */
+
+
+
+
 
 
   /* -----------------------------Buttons */
 
  
-      /* ----------Divs---------------- */
 
-
-  /*------------------------------------------ Navbar */
-
-.collapse navbar-collapse {
-
-
-}
