@@ -12,13 +12,26 @@ body {
   text-align: center;
   color:rgb(219, 46, 46);
 }
+.container8 {
+    position: relative;
+    text-align:center;
+    color:orange;
+    
+
+}
 
 /* Text on Image in html */
 .top-left {
   position: absolute;
-  bottom: 10px;
-  left: 5px;
-  font-size: 20px;
+  bottom:10px;
+  left: 10px;
+  font-size: 3px;
+}
+.bottom-left {
+    position: absolute;
+    font-size:15px;
+    bottom: 5px;
+    left:10px;
 }
 /* --------------------------------Trial */
 /* ------------------------------------------------ Divs Index.html */
@@ -34,7 +47,7 @@ body {
     /* width:25%; */
 }
 .jumbotron p {
-    color:rgb(102, 102, 241);
+    /* color:rgb(102, 102, 241); */
     font-family: 'Roboto',sans-serif;
 }
 /* ---------------------------------------------Block Divider */
