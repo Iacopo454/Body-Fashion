@@ -15,21 +15,33 @@ body {
 .container8 {
     position: relative;
     text-align:center;
-    color:orange;
-    
+    color:orangered;
 
 }
 
+
+
 /* Text on Image in html */
-.top-left {
+/* .top-left {
   position: absolute;
   bottom:10px;
   left: 10px;
-  font-size: 3px;
+  font-size: 10px;
+} */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+font-size:30px;
 }
+
+
+
 .bottom-left {
     position: absolute;
-    font-size:15px;
+    font-size:10px;
     bottom: 5px;
     left:10px;
 }
