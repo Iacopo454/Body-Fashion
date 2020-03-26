@@ -1,106 +1,82 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Roboto=|Indie+Flower&display=swap" rel="stylesheet">display:100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700,');
 
+/*------------------------------------------- CSS Index.html------ */
+
 body {
     font-family: 'Roboto', sans-serif;
-    background-color:black; 
+    background:;
+}
+/* -------Trial--------- */
+.container6 {
+  position: relative;
+  text-align: center;
+  color:rgb(219, 46, 46);
 }
 
-/*------------------------------- Heading */
-.navbar {
-    color: purple;
+/* Text on Image in html */
+.top-left {
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  font-size: 20px;
 }
+/* --------------------------------Trial */
+/* ------------------------------------------------ Divs Index.html */
 
 
 
+/* --------------------------Jumbotron Index.html------------------- */
 
-    
-  
 
-/* -------------------Block-divider--------- */
+
+.jumbotron h1 {
+    font-family: 'Indie+Flower';
+    /* width:25%; */
+}
+.jumbotron p {
+    color:rgb(102, 102, 241);
+    font-family: 'Roboto',sans-serif;
+}
+/* ---------------------------------------------Block Divider */
 
 .block-divider--orange {
-    width:150px;
-    height:5px;
-    font-size: 5px;
+    width:350px;
+    height:7px;
+    font-size: 10px;
     background-color: orange;
 }
 
+/* -------------------------------------CSS meet.html */
 
 
-
-
-/* -----Jumbotron-------------------------- */
-.jumbotron { 
-    
-    padding:0 auto;
-background-image: url("../images/gym.jpg");
-background-size: cover;
-box-sizing:border-box;
-
-}
-.jumbotron h1 {font-family: 'Indie+Flower';
-    width:33%;
-}
-.jumbotron p {
-    color:#5ee27c;
-    font-family: 'Roboto',sans-serif;
-    font-size: 20%;
-    height:20%;
-}
-
-/*------------------------------ Divs-color------ */
-
-div h2 { 
-        color:#5ee27c;
-        font-size: xlarge;
-    }
-div p { color: lemonchiffon;
-}
-div h5 {
-    color:lemonchiffon;
-}
-
-
-/*--------------------- ---------------Containers index.html */
-.Wrapper { 
-    display: inline-block;
- height:1200px;
-width:90%;
-padding:10px;
-}
-.container1 {
-display:inline-block;
-width:48%;
-
-
-}
-.container2 { 
-    display:inline-block;
-    width:48%;
-}
-
-    
-
-
-
- /* ----------------------------Containers Meet.html--------- */
- .Folder1 {
-     height:50px;
-     padding:10px;
- }
-.Box1  .Box2 .Box3 .Box4 .Box5{
-    width:20%;
-    display:inline-block;
-}
-
-/* --------Footer-------- */
-
-
-
+.Container p {
+    color:rgb(44, 9, 9);
 
 
 
   /* -----------------------------Buttons */
+/* 
+ btn btn-primary btn-lg {
+  margin-bottom: 50px;
+ } */
 
- 
 
+
+
+
+
+@media (min-width: 576px)
+{
+
+}
+
+
+@media (min-width: 576px)
+{
+
+}
+
+@media (min-width: 576px)
+{
+
+}
