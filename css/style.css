@@ -57,6 +57,10 @@ font-size:30px;
 
 /* --------------------------Jumbotron Index.html------------------- */
 
+.jumbotron {
+        padding: 5px;
+    margin: 5px;
+}
 
 
 .jumbotron h1 {
@@ -66,6 +70,7 @@ font-size:30px;
 .jumbotron p {
     /* color:rgb(102, 102, 241); */
     font-family: 'Roboto',sans-serif;
+    font-size: larger;
 }
 /* ---------------------------------------------Block Divider */
 
