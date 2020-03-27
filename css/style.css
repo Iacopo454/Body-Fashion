@@ -34,6 +34,16 @@ body {
   font-size: 10px;
 } */
 
+
+
+.p .large {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+
+
+
 .centered {
   position: absolute;
   top: 50%;
@@ -96,11 +106,17 @@ font-size:30px;
 
 .melone {
     color:#fd2626;
+  margin-top: 150px;
 }
 .arancia { 
     color: #ffd34d;
 }
-
+.banana {
+    color:#5fb4ff;
+        margin-top: 300px;
+    margin-left: 25px;
+    
+}
 
 
 
