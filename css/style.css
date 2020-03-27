@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background:;
+    
 }
 /* -------Trial--------- */
 .container6 {
@@ -18,7 +18,12 @@ body {
     color:orangered;
 
 }
+.learn { 
+    background: url("../images/sereno.jpg") no-repeat; 
+   background-size: cover;
+    min-height: 100vh;
 
+}
 
 
 /* Text on Image in html */
@@ -74,16 +79,22 @@ font-size:30px;
 /* -------------------------------------CSS meet.html */
 
 
-.Container p {
-    color:rgb(44, 9, 9);
+/* .Container p {
+    color:rgb(44, 9, 9); */
 
 
 
   /* -----------------------------Buttons */
-/* 
- btn btn-primary btn-lg {
-  margin-bottom: 50px;
- } */
+
+
+/* ---------------------------------Learn-more.html */
+
+.melone {
+    color:#fd2626;
+}
+.arancia { 
+    color: #ffd34d;
+}
 
 
 
