@@ -1,35 +1,49 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+### New Gym Opening soon in London 
 
-Welcome Iacopo454,
+This project is about creating a responsive website using Html, Css stylesheet and Bootstrap to promote a new Gym opening soon in south east London.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## Structure 
 
-## Gitpod Reminders
+#The wensite has an index.html file that contains the homepage and welcome the user with  a slice Carousel of Images of the Gym
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+-The homepage(index.html) also display a Bootstrap Navbar that give the user the opportunity to move to other pages such as : 
 
-`python3 -m http.server`
+Meet the staff, Pricing, Serious stuff and the Sign Up form and is it builded as an anchor so if the user click on it anywhere it will be redirected straight to the Homepage. 
 
-A blue button should appear to click: *Make Public*,
+Homepage: "index.html" 
+- A separate image with famous Arnold Scwharzneger and some mochking text created using Jumbotron from Bootstrap, also the Jumbotron has a "Learn more" button which links the user to a separate page where the user can read more informations related to the Gym project.
 
-Another blue button should appear to click: *Open Browser*.
+ -Introduction to the gym informing the users of what they can expect from it, -what makes it different
+ -The Gym facilities
+ -The training equipment
+ -Cardio equipment
+ -The importance to keep in shape 
+ - Footer with the Social links and the full address including the contac e-mail 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+Meet the staff "Meet.html"
+- the page contains the same Bootstrap navbar as in the home page 
+- the page contains 6 Images and before each one there is a paragraph introducing first the whole Family and concept of the gym and then each Personal Trainer  working in the gym with a small biography of their lifes and skills. , giving the user the opportunity to get to know more about the Staff beofre joining 
+- Footer contains Social links and full address too 
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+Pricing "prcing.html"
+-Give the users all the informations relevan on the memberships available in the gym or promotions going on
+- The page displays also a Sign Up button to open the form, the same form is also availble from the Collapse Menu button on the navbar on the top
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+Serious.html "Serious staff" 
+-Is a page that is currently on going and will report all the informations regarding the gym rules of what an users can and it is not allowed to do
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
 
-Happy coding!
+
+
+
+
+
+
+
+
+
