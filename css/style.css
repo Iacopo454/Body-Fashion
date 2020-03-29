@@ -2,6 +2,43 @@
 
 /*------------------------------------------- CSS Index.html------ */
 
+/*  testing for rules.html */
+.my-col { 
+   
+}
+.my-container { 
+    background: url("../images/palestra.jpg") no-repeat; 
+    padding-top:100px;
+    
+    height:300px;
+    border: 1px solid rgb(24, 24, 26);
+}
+.my-1-container {
+    background: url("../images/yahoo.jpg") no-repeat; 
+    background-size:cover;
+    padding-top:300px;
+    height:150px;
+    
+
+}
+
+
+
+/* UP IS TESTING FOR RULES.HTML */
+/* CONTAINER H1 RULES.HTML */
+
+.my-container, h1 { 
+    color:#fd2626;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
 body {
     font-family: 'Roboto', sans-serif;
     
