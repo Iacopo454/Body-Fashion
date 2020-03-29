@@ -3,65 +3,64 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-/*------------------------------------------- CSS Index.html------ */
+/*---------------- rules.html------ */
 
-.my-x-container { 
+.my-rules1-container { 
     background: url("../images/palestra.jpg") no-repeat; 
      height:300px;
     border: 1px solid rgb(24, 24, 26);
 }
-.my-x1-container {
+.my-rules2-container {
     background: url("../images/blonde-jpg.jpg") no-repeat; 
     background-size:cover;
     padding-top:300px;
     height:150px;
 }
-
-
-
-
-
-
-
-
- /*-----------Rules.html------------------------- */
-
-.my-x-container, h1{
+.my-rules1-container, h1{
     color:orangered;
  
 }
 
-
-.my-x1-container, h2 { 
+.my-rules2-container, h2 { 
     
     color:black;
 }
 .card-title{  
     color:deeppink;
 }
- 
- 
 
-/* ------------------------index.html ------------------------ */
-.p,.large {
-    margin-left: 250px;
-    margin-right: 250px;
+
+
+
+
+
+
+/* ---------------------------------------------Block Divider */
+.block-divider--orange {
+    width:350px;
+    height:7px;
+    font-size: 10px;
+    background-color: orange;
+}
+/* --------index.html classes for text on images----------- */
+
+.my-index-container h1{
+    color:cornflowerblue;
 }
 
- 
 
-/* --------index.html classes for text on images----------- */
+
+
 .centered {
-    color:red;
+    color:rgb(235, 36, 36);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 font-size:30px;
 }
+
  
-
-
 .centered-2 {
      color:red;
   position: absolute;
@@ -70,35 +69,33 @@ font-size:30px;
   transform: translate(-50%, -50%);
 font-size:20px;
 }
-
-/* ----------------------------------------------- */
-
-
 /* --------------------------Jumbotron Index.html------------------- */
-
 .jumbotron {
-        padding: 5px;
+    padding: 5px;
     margin: 5px;
 }
 
-
 .jumbotron h1 {
     font-family: 'Indie+Flower';
-    /* width:25%; */
+
 }
 .jumbotron p {
-    /* color:rgb(102, 102, 241); */
     font-family: 'Roboto',sans-serif;
     font-size: larger;
 }
-/* ---------------------------------------------Block Divider */
 
-.block-divider--orange {
-    width:350px;
-    height:7px;
-    font-size: 10px;
-    background-color: orange;
-}
+ /*-----------Rules.html------------------------- */
+
+
+ 
+ 
+
+/* ------------------------index.html ------------------------ */
+/* .p,.large {
+    margin-left: 250px;
+    margin-right: 250px;
+} */
+
 
 /* -------------------------------------CSS meet.html */
 
@@ -106,7 +103,7 @@ font-size:20px;
 
 
 
-  /* -----------------------------Buttons */
+  
 
 
 /* ---------------------------------Learn-more.html */
@@ -115,9 +112,6 @@ font-size:20px;
      background: url("../images/sereno.jpg") no-repeat; 
      background-size:cover;
  }
-
-
-
 
 .melone {
     color:#fd2626;
