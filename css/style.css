@@ -1,36 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Roboto=|Indie+Flower&display=swap" rel="stylesheet">display:100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700,');
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
 /*------------------------------------------- CSS Index.html------ */
 
-/*  testing for rules.html */
-.my-col { 
-   
-}
-.my-container { 
+.my-x-container { 
     background: url("../images/palestra.jpg") no-repeat; 
-    padding-top:100px;
-    
-    height:300px;
+     height:300px;
     border: 1px solid rgb(24, 24, 26);
 }
-.my-1-container {
-    background: url("../images/yahoo.jpg") no-repeat; 
+.my-x1-container {
+    background: url("../images/blonde-jpg.jpg") no-repeat; 
     background-size:cover;
     padding-top:300px;
     height:150px;
-    
-
-}
-
-
-
-/* UP IS TESTING FOR RULES.HTML */
-/* CONTAINER H1 RULES.HTML */
-
-.my-container, h1 { 
-    color:#fd2626;
-    font-size: 30px;
-    letter-spacing: 1px;
 }
 
 
@@ -39,67 +23,55 @@
 
 
 
-body {
-    font-family: 'Roboto', sans-serif;
-    
-}
-/* -------Trial--------- */
-.container6 {
-  position: relative;
-  text-align: center;
-  color:rgb(219, 46, 46);
-}
-.container8 {
-    position: relative;
-    text-align:center;
+
+ /*-----------Rules.html------------------------- */
+
+.my-x-container, h1{
     color:orangered;
-
-}
-.learn { 
-    background: url("../images/sereno.jpg") no-repeat; 
-   background-size: cover;
-    min-height: 100vh;
-
+ 
 }
 
 
-/* Text on Image in html */
-/* .top-left {
-  position: absolute;
-  bottom:10px;
-  left: 10px;
-  font-size: 10px;
-} */
+.my-x1-container, h2 { 
+    
+    color:black;
+}
+.card-title{  
+    color:deeppink;
+}
+ 
+ 
 
-
-
-.p .large {
+/* ------------------------index.html ------------------------ */
+.p,.large {
     margin-left: 250px;
     margin-right: 250px;
 }
 
+ 
 
-
-
+/* --------index.html classes for text on images----------- */
 .centered {
+    color:red;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 font-size:30px;
 }
+ 
 
 
-
-.bottom-left {
-    position: absolute;
-    font-size:10px;
-    bottom: 5px;
-    left:10px;
+.centered-2 {
+     color:red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+font-size:20px;
 }
-/* --------------------------------Trial */
-/* ------------------------------------------------ Divs Index.html */
 
+/* ----------------------------------------------- */
 
 
 /* --------------------------Jumbotron Index.html------------------- */
@@ -131,8 +103,6 @@ font-size:30px;
 /* -------------------------------------CSS meet.html */
 
 
-/* .Container p {
-    color:rgb(44, 9, 9); */
 
 
 
@@ -141,16 +111,24 @@ font-size:30px;
 
 /* ---------------------------------Learn-more.html */
 
+.learn {
+     background: url("../images/sereno.jpg") no-repeat; 
+     background-size:cover;
+ }
+
+
+
+
 .melone {
     color:#fd2626;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .arancia { 
-    color: #ffd34d;
+    color: #fff;
 }
 .banana {
-    color:#5fb4ff;
-        margin-top: 300px;
+    color:#fff;
+    margin-top: 300px;
     margin-left: 25px;
     
 }
