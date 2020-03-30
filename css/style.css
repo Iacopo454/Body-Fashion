@@ -1,15 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Roboto=|Indie+Flower&display=swap" rel="stylesheet">display:100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700,');
 
 body {
-    /* min-height:900px; */
+
     font-family: 'Roboto', sans-serif;
 }
 /*---------------- Rules.html------ */
-/* 
-.wrapper  { 
-    min-height: 50pxh;
-} */
-
 
 .my-rules1-container, h1{
     color:orangered;
@@ -23,14 +18,7 @@ body {
 .card-title{  
     color:deeppink;
 }
-
-
-
-
-
-
-
-/* ---------------------------------------------Block Divider */
+/* ---------------------Block Divider------------------------ */
 .block-divider--orange {
     width:350px;
     height:7px;
@@ -137,9 +125,12 @@ font-size:20px;
 .card-title{  
     color:deeppink;
 }
+/* -------------------------------Media Queries---------------- */
 
 @media screen and (max-width: 576px) {
-   /*------------------index.html----------------------  */
+
+ /*------------------index.html Media queries----------------------  */
+
 .container-fluid {
 width: 100%;
 padding-right: 15px;
@@ -169,7 +160,8 @@ margin: 5px;
     font-size: 8px;
 }
 
-/* ------------------------------ Rules.html-------------- */
+/* ------------------------------ Rules.html Media queries-------------- */
+
 .footer {
     font-size: 8px;
 }
