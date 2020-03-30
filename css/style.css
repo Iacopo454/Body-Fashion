@@ -99,7 +99,8 @@ font-size:20px;
 .banana {
     color:#fff;
     margin-top: 300px;
-    margin-left: 25px;   
+    margin-left: 25px;  
+    padding:5px; 
 }
 /* ----------------Rules.html----------------------------- */
 .img1 {
@@ -138,37 +139,38 @@ font-size:20px;
 }
 
 @media screen and (max-width: 576px) {
-    #carouselExampleIndicators {
-        width: 70%;
-        height:600px;
-        margin:0 auto;
-    }
-    .my-index-container{
-        width:70%;
-        height:600px;
-        margin:0 auto;
-    }
-    .container6 {
-        width:70%;
-        height:50%;
-        margin:0 auto;
-    }
-    .jumbotron-fluid {
-        width:70%;
-        height:50%;
-        margin:0 auto;
-    
-    }
-  .block-divider--orange {
-       width:10%;
-    
+   
+.container-fluid {
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin: 5px;
 
-  }
-      
-  
-  
-  
+}
+.block-divider--orange {
+    width: 250px;
+    height: 7px;
+    font-size: 10px;
+    background-color: orange;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.footer-index {
+        width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 5px;
+    font-size: 8px;
 }
 
 
+
+
+}
 
