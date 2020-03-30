@@ -1,21 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Roboto=|Indie+Flower&display=swap" rel="stylesheet">display:100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700,');
 
 body {
+    /* min-height:900px; */
     font-family: 'Roboto', sans-serif;
 }
-/*---------------- rules.html------ */
+/*---------------- Rules.html------ */
+/* 
+.wrapper  { 
+    min-height: 50pxh;
+} */
 
-.my-rules1-container { 
-    background: url("../images/palestra.jpg") no-repeat; 
-     height:300px;
-    border: 1px solid rgb(24, 24, 26);
-}
-.my-rules2-container {
-    background: url("../images/blonde-jpg.jpg") no-repeat; 
-    background-size:cover;
-    padding-top:300px;
-    height:150px;
-}
+
 .my-rules1-container, h1{
     color:orangered;
  
@@ -47,9 +42,6 @@ body {
 .my-index-container h1{
     color:cornflowerblue;
 }
-
-
-
 
 .centered {
     color:rgb(235, 36, 36);
@@ -84,29 +76,13 @@ font-size:20px;
     font-size: larger;
 }
 
- /*-----------Rules.html------------------------- */
+/* ----------------------Learn-more.html ----------------------*/
 
 
- 
- 
-
-/* ------------------------index.html ------------------------ */
-/* .p,.large {
-    margin-left: 250px;
-    margin-right: 250px;
-} */
-
-
-/* -------------------------------------CSS meet.html */
-
-
-
-
-
-  
-
-
-/* ---------------------------------Learn-more.html */
+.learn-container {
+    padding:5px;
+    margin:5px;
+}
 
 .learn {
      background: url("../images/sereno.jpg") no-repeat; 
@@ -123,26 +99,76 @@ font-size:20px;
 .banana {
     color:#fff;
     margin-top: 300px;
-    margin-left: 25px;
+    margin-left: 25px;   
+}
+/* ----------------Rules.html----------------------------- */
+.img1 {
+  position: relative;
+}
+
+.img2 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  right:50px;
+  bottom:50px;
+}
+.titolo {
+    position:absolute;
+    top:5px;
+    left:100px;
+    margin:3px;
+    padding:2px;
+}
+.myrules1-container {
+    padding: 5px;
+    margin:5px;
+}
+.my-rules1-container, h1{
+    color:orangered;
+ 
+}
+ 
+/* .wrapper  { 
+    min-height: 50pxh;
+}  */
+
+.card-title{  
+    color:deeppink;
+}
+
+@media screen and (max-width: 576px) {
+    #carouselExampleIndicators {
+        width: 70%;
+        height:600px;
+        margin:0 auto;
+    }
+    .my-index-container{
+        width:70%;
+        height:600px;
+        margin:0 auto;
+    }
+    .container6 {
+        width:70%;
+        height:50%;
+        margin:0 auto;
+    }
+    .jumbotron-fluid {
+        width:70%;
+        height:50%;
+        margin:0 auto;
     
+    }
+  .block-divider--orange {
+       width:10%;
+    
+
+  }
+      
+  
+  
+  
 }
 
 
 
-
-
-@media (min-width: 576px)
-{
-
-}
-
-
-@media (min-width: 576px)
-{
-
-}
-
-@media (min-width: 576px)
-{
-
-}
