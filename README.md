@@ -13,8 +13,12 @@ Meet the staff, Pricing, Serious stuff and the Sign Up form and is it builded as
 Homepage: "index.html" 
 - A separate image with famous Arnold Scwharzneger and some mochking text created using Jumbotron from Bootstrap, also the Jumbotron has a "Learn more" button which links the user to a separate page where the user can read more informations related to the Gym project.
 
-# Learn more button link the user to anoter page which provide to the users more informations on the Gym concepts and envoiroment 
+# Learn more button link the user to anoter page which provide to the users more informations on the Gym concepts 
 The text its entirely wirtten by me, instead the background image "sereno.jpg" is taken from Yahoo search engine. 
+#The Iframe video is taken from Youtube, the source is Valrocky.
+My intention initially was to link a Facebook page and Youtube but apparently after checking an error in the console "X-frames-Options to deny" and searching on Google the error, I find out on stackoverflow.com that it is not possible as Facebook does not allowed it but perhaps is possible with some other code configuration to go around it. So at the end I used only one link for my Iframe. I have also tried to link another link to the same Iframe still from Youtube but I have experienced another error that did not let me do it: here below a copy and paste of this:
+
+"A cookie associated with a cross-site resource at https://youtube.com/ was set without the `SameSite` attribute. It has been blocked, as Chrome now only delivers cookies with cross-site requests if they are set with `SameSite=None` and `Secure`." 
 
 # The text in the index.html regarding the Gym informations and the introduciton is taken from the website ourgym.co.uk 
 # The text in the Rules.html is taken from the www.247fitness.co
