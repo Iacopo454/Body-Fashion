@@ -66,17 +66,14 @@ font-size:20px;
 
 /* ----------------------Learn-more.html ----------------------*/
 
-
 .learn-container {
     padding:5px;
     margin:5px;
 }
-
 .learn {
      background: url("../images/sereno.jpg") no-repeat; 
      background-size:cover;
  }
-
 .melone {
     color:#fd2626;
   margin-top: 100px;
@@ -117,20 +114,15 @@ font-size:20px;
     color:orangered;
  
 }
- 
-/* .wrapper  { 
-    min-height: 50pxh;
-}  */
-
 .card-title{  
     color:deeppink;
 }
 /* -------------------------------Media Queries---------------- */
 
-@media screen and (max-width: 576px) {
 
  /*------------------index.html Media queries----------------------  */
-
+@media screen and (max-width: 576px) {
+    
 .container-fluid {
 width: 100%;
 padding-right: 15px;
