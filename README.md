@@ -15,10 +15,11 @@ Homepage: "index.html"
 
 # Learn more button link the user to anoter page which provide to the users more informations on the Gym concepts 
 The text its entirely wirtten by me, instead the background image "sereno.jpg" is taken from Yahoo search engine. 
-#The Iframe video is taken from Youtube, the source is Valrocky.
-My intention initially was to link a Facebook page and Youtube but apparently after checking an error in the console "X-frames-Options to deny" and searching on Google the error, I find out on stackoverflow.com that it is not possible as Facebook does not allowed it but perhaps is possible with some other code configuration to go around it. So at the end I used only one link for my Iframe. I have also tried to link another link to the same Iframe still from Youtube but I have experienced another error that did not let me do it: here below a copy and paste of this:
 
-"A cookie associated with a cross-site resource at https://youtube.com/ was set without the `SameSite` attribute. It has been blocked, as Chrome now only delivers cookies with cross-site requests if they are set with `SameSite=None` and `Secure`." 
+#The Iframe video is taken from Youtube, the first video source called "motivational" is of Valrocky "Train like a champion" here the link: https://www.youtube.com/watch?v=0UEUjQ546_g&t=8s
+#The second video is taken from Youtube too and the source is Criticalbench "Personal Training Workouts - Beginner to Advanced Training" here the link: https://www.youtube.com/watch?v=2U7hY_523eQ.
+
+My intention initially was to link a Facebook page and Youtube but apparently after checking an error in the console "X-frames-Options to deny" and searching on Google the error, I find out on stackoverflow.com that it is not possible to add a facebook page because Facebook does not allowed it and block it.But perhaps is possible with some other code configuration to go around it. So at the end I have linked two youtube videos to the same Iframe.
 
 # The text in the index.html regarding the Gym informations and the introduciton is taken from the website ourgym.co.uk 
 # The text in the Rules.html is taken from the www.247fitness.co
