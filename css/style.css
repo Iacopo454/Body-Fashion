@@ -81,8 +81,7 @@ font-size:20px;
     color:dodgerblue;
 }
 .learn-container {
-    /* position: absolute; */
-    top: 600px;
+    top: 550px;
     padding: 10px;
     margin-top: 10px;
     margin-left: 10px;
@@ -93,9 +92,10 @@ font-size:20px;
      background: url("../images/sereno.jpg") no-repeat; 
      background-size:cover;
  }
+
 .melone {
-    color:#fd2626;
-  margin-top: 100px;
+    color: #fd2626;
+    margin-top: 10px;
 }
 .arancia { 
     color: #fff;
@@ -196,7 +196,22 @@ margin: 5px;
     width: 40%;
 }
 
+.iframe-smaller {
+    width:300px;
+    height:300px;
+    margin-left:25px;
+    padding-left:10px;
+}
 
+.iframe-title {
+    font-size: 30px;
+    color: dodgerblue;
+    padding-left: 25px;
+}
+.link-smaller {
+    font-size:10px;
+    margin-left:20px;
+    padding-left:10px;
 }
 }
 
