@@ -27,6 +27,12 @@ body {
 }
 /* --------index.html classes for text on images----------- */
 
+
+
+
+
+
+
 .my-index-container h1{
     color:cornflowerblue;
 }
@@ -65,20 +71,20 @@ font-size:20px;
 }
 
 /* ----------------------Learn-more.html ----------------------*/
-
-.iframe {
-    position: absolute;
-    top: 120px;
-    left: 150px;
-    
+.row video {
+    position: relative;
+    left:200px;
+    top:120px;
 }
+
 .iframe-title {
     color:dodgerblue;
 }
-
 .learn-container {
+    /* position: absolute; */
+    top: 600px;
     padding: 10px;
-    margin-top: 600px;
+    margin-top: 10px;
     margin-left: 10px;
     margin-right: 0px;
     text-align: left;
@@ -94,12 +100,12 @@ font-size:20px;
 .arancia { 
     color: #fff;
 }
-.banana {
+/* .banana {
     color:#fff;
     margin-top: 300px;
     margin-left: 25px;  
     padding:5px; 
-}
+} */
 /* ----------------Rules.html----------------------------- */
 .img1 {
   position: relative;
@@ -149,14 +155,7 @@ margin: 5px;
     font-size: 10px;
     background-color: orange;
 }
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: 10px;
-    margin-left: 10px;
-}
+
 .footer-index {
         width: 100%;
     padding-right: 15px;
@@ -167,7 +166,7 @@ margin: 5px;
 
 /* ------------------------------ Rules.html Media queries-------------- */
 
-.footer {
+.footer-rules {
     font-size: 8px;
 }
 .titolo { 
@@ -178,6 +177,26 @@ margin: 5px;
     padding: 2px;
     font-size: 25px;
 }
+/* ------------------------Learning-more.html queries-------------------- */
 
+
+.footer-learning {
+    font-size: 8px;
+}
+
+
+.learn-container {
+   width: 75%;
+   padding-left: 5px;
+   margin-left:3px;   
+}
+
+
+.row-video {
+    width: 40%;
+}
+
+
+}
 }
 
