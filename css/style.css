@@ -4,6 +4,7 @@ body {
 
     font-family: 'Roboto', sans-serif;
 }
+
 /*---------------- Rules.html------ */
 
 .my-rules1-container, h1{
@@ -26,15 +27,16 @@ body {
     background-color: orange;
 }
 /* --------index.html classes for text on images----------- */
-
-
-
-
-
-
-
 .my-index-container h1{
     color:cornflowerblue;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .centered {
@@ -71,27 +73,41 @@ font-size:20px;
 }
 
 /* ----------------------Learn-more.html ----------------------*/
-.row video {
-    position: relative;
-    left:200px;
-    top:120px;
+
+.learn {
+     background: url("../images/sereno.jpg") no-repeat; 
+     background-size:cover;
+ }
+
+.row-video {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: 10px;
+    padding-left: px;
+
+}
+
+
+
+.container-iframe {
+    max-width: 960px;
+    margin-left: 90px;
+    padding: 5px 15px;
+    margin-right: 10px;
+}
+
+.iframe {
+    margin:5px 15px;
+}
+.iframe-normal {
+    height:500px;
+    width:600px;
 }
 
 .iframe-title {
     color:dodgerblue;
 }
-.learn-container {
-    top: 550px;
-    padding: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 0px;
-    text-align: left;
-}
-.learn {
-     background: url("../images/sereno.jpg") no-repeat; 
-     background-size:cover;
- }
 
 .melone {
     color: #fd2626;
@@ -100,12 +116,7 @@ font-size:20px;
 .arancia { 
     color: #fff;
 }
-/* .banana {
-    color:#fff;
-    margin-top: 300px;
-    margin-left: 25px;  
-    padding:5px; 
-} */
+
 /* ----------------Rules.html----------------------------- */
 .img1 {
   position: relative;
@@ -139,7 +150,8 @@ font-size:20px;
 /* -------------------------------Media Queries---------------- */
 
 
- /*------------------index.html Media queries----------------------  */
+ /*-----------index.html Media Queries max-width-576px---------------  */
+
 @media screen and (max-width: 576px) {
 
 .container-fluid {
@@ -147,6 +159,15 @@ width: 100%;
 padding-right: 15px;
 padding-left: 15px;
 margin: 5px;
+}
+
+/* ------Arnold-Image (no displayed on small devices)---------------- */
+.img-fluid {
+    display:none;
+}
+/* -------Arnold Text-Image (no displayed on small devices----------- */
+.centered-2 {
+    display:none;
 
 }
 .block-divider--orange {
@@ -155,20 +176,18 @@ margin: 5px;
     font-size: 10px;
     background-color: orange;
 }
-
+/* -------All footers----------------------------------------------- */
 .footer-index {
-        width: 100%;
+     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin: 5px;
     font-size: 8px;
 }
 
-/* ------------------------------ Rules.html Media queries-------------- */
+/* -------------- Rules.html Media queries max-width-576px-------------- */
 
-.footer-rules {
-    font-size: 8px;
-}
+
 .titolo { 
     position: absolute;
     top: 5px;
@@ -177,41 +196,45 @@ margin: 5px;
     padding: 2px;
     font-size: 25px;
 }
-/* ------------------------Learning-more.html queries-------------------- */
+/* -----------Learning-more.html queries max-width-576px-------------------- */
 
-
-.footer-learning {
-    font-size: 8px;
+.iframe-normal {
+    height: 300px;
+    width: 250px;
+}
+.container-iframe {
+    max-width: 500px;
+    margin-left: -20px;
+    padding: 5px 15px;
+    margin-right: 10px;
 }
 
-
-.learn-container {
-   width: 75%;
-   padding-left: 5px;
-   margin-left:3px;   
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 40px;
+    padding-left: px;
+    padding-right: 5px;
 }
 
-
-.row-video {
-    width: 40%;
+.melone {
+    color: #fd2626;
+    margin-top: 10px;
+    font-size: 25px;
 }
-
-.iframe-smaller {
-    width:300px;
-    height:300px;
-    margin-left:25px;
-    padding-left:10px;
-}
-
 .iframe-title {
     font-size: 30px;
     color: dodgerblue;
     padding-left: 25px;
 }
 .link-smaller {
-    font-size:10px;
+    font-size:15px;
     margin-left:20px;
     padding-left:10px;
 }
 }
 
+
+
+  
