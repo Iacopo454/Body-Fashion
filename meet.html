@@ -21,31 +21,78 @@
 
 	<title>New Gym opening</title>
 </head>
-<header>
-	<!-- -----------------------------------------Bootstrap Navbar -->
-	<nav class="navbar-fixed-top navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="index.html">Body Fashion "Opening soon in south east London"</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-		<div class="collapse navbar-collapse fixed top" id="navbarText">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="index.html">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="meet.html">Meet the staff </a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="pricing.html">Pricing</a>
-				</li>
-				<li class="navbar-item">
-					<a class="nav-link" href="serious.html"> Serious stuff</a>
-				</li>
-			</ul>
+
+<!-- Bootstrap Navbar -->
+
+<nav class="navbar-fixed-top navbar-expand-lg navbar-dark bg-dark navbar-nav ml-auto">
+	<a class="navbar-brand" href="#"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+	<div class="collapse navbar-collapse fixed top" id="navbarText">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="index.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="meet.html">Meet the staff </a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="pricing.html">Pricing</a>
+			</li>
+			<li class="navbar-item">
+				<a class="nav-link" href="Rules.html">The Gym rules</a>
+			</li>
+			<!-- ------tag navbar-link to connect the sign up form -->
+			<li class="navbar-item">
+				<a class="nav-link" data-toggle="modal" data-target="#exampleModal"> Sign Up</a>
+				<!-- -----End of tag (taken from Stackoverflow) -->
+			</li>
+		</ul>
+	</div>
+</nav>
+
+
+
+<!-- Modal for Sing up form -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+	aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+			</div>
+			<div class="modal-body">
+
+				<form>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Email address</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+						<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+					</div>
+					<div class="form-group">
+						<label for="exampleInputPassword1">Password</label>
+						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+						<div class="form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1">Check me out</label>
+						</div>
+						<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save changes</button>
+			</div>
 		</div>
-	</nav>
-</header>
+	</div>
+</div>
+<!-- End of Modal Sign up form from Toggle bar -->
 
 <body>
 	<!---------------------------------------------------Bootstrap Grid-->
@@ -137,97 +184,89 @@
 						</p>
 						<img src="images/Laura.jpg" class="img-thumbnail" height="300px" width="800px">
 						<br>
-                        <!-- "Added the class mb-auto p-2 bd-highlight from Bootstrap "with-align-items to the button Learn" -->
-						<p><a class="mb-auto p-2 bd-highlight btn btn-primary btn-lg" href="Learn-more.html" target="_blank" role="button">Learn
-								more</a>
-						</p>
-
-
-
+	</div>
 					</div>
 				</div>
-			</div>
-			<!--------- --------------------------------------Footer--------------- -->
+				<!-- -----------------------------------Footer------------------ -->
 
-
-			<footer class="contaner-fluid bottom-fixed">
-				<div class="row">
-					<div class="col-12">
-						<p><strong>Address:</strong> <br>283 Lee High Road Body</p>
-							<p><strong> postcode:</strong> <br>SE8 4LZ Lewisham, London</p>
+				<footer class="bottom-fixed bg-dark text-white footer-index">
+					<div class="container-fluid">
+						<div class="row pt-4">
+							<div class="col-2">
+								<p><strong>Address:</strong> <br>283 Lee High Road Body</p>
+							</div>
+							<div class="col-xs-2 col-3">
+								<p><strong> postcode:</strong> <br>SE8 4LZ Lewisham,
+                    London</p>
+							</div>
+							<div class="col-xs-2 col-3">
 								<p><strong>e-mail:</strong> <br>   283body.fashion@icloud.com</p>
-									<h3 class="uppercase general-sub">Social</h3>
-									<ul class="list-inline social-links">
-										<li class="list-inline-item">
-											<a target="_blank" href="#">
-												<i class="fab fa-facebook" aria-hidden="true"></i>
-												<span class="sr-only">Facebook</span>
-											</a>
-										</li>
-										<li class="list-inline-item">
-											<a target="_blank" href="#">
-												<i class="fab fa-twitter" aria-hidden="true"></i>
-												<span class="sr-only">Twitter</span>
-											</a>
-										</li>
-										<li class="list-inline-item">
-											<a target="_blank" href="#">
-												<i class="fab fa-linkedin" aria-hidden="true"></i>
-												<span class="sr-only">LinkedIn</span>
-											</a>
-										</li>
-										<li class="list-inline-item">
-											<a target="_blank" href="#">
-												<i class="fab fa-pinterest" aria-hidden="true"></i>
-												<span class="sr-only">Pinterest</span>
-											</a>
-										</li>
-										<li class="list-inline-item">
-											<a target="_blank" href="#">
-												<i class="fab fa-instagram" aria-hidden="true"></i>
-												<span class="sr-only">Instagram</span>
-											</a>
-										</li>
-										<li class="list-inline-item">
-											<a target="_blank" href="www.youtube.com">
-												<i class="fab fa-youtube" aria-hidden="true"></i>
-												<span class="sr-only">YouTube</span>
-											</a>
-										</li>
-									</ul>
+							</div>
+							<div class="col-xs-3 col-4">
+								<p class="uppercase general-sub">Social</p>
+								<ul class="list-inline social-links">
+									<li class="list-inline-item">
+										<a target="_blank" href="#">
+											<i class="fab fa-facebook" aria-hidden="true"></i>
+											<span class="sr-only">Facebook</span>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a target="_blank" href="#">
+											<i class="fab fa-twitter" aria-hidden="true"></i>
+											<span class="sr-only">Twitter</span>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a target="_blank" href="#">
+											<i class="fab fa-linkedin" aria-hidden="true"></i>
+											<span class="sr-only">LinkedIn</span>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a target="_blank" href="#">
+											<i class="fab fa-pinterest" aria-hidden="true"></i>
+											<span class="sr-only">Pinterest</span>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a target="_blank" href="#">
+											<i class="fab fa-instagram" aria-hidden="true"></i>
+											<span class="sr-only">Instagram</span>
+										</a>
+									</li>
+									<li class="list-inline-item">
+										<a target="_blank" href="www.youtube.com">
+											<i class="fab fa-youtube" aria-hidden="true"></i>
+											<span class="sr-only">YouTube</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
-				</div>
-			</footer>
 
+				</footer>
 
+				<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+					integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+					crossorigin="anonymous">
+				</script>
 
+				<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+					integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+					crossorigin="anonymous">
+				</script>
 
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+					integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+					crossorigin="anonymous">
+				</script>
 
-
-
-
-
-
-
-			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-				integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-				crossorigin="anonymous">
-			</script>
-
-			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-				integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-				crossorigin="anonymous">
-			</script>
-
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-				integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-				crossorigin="anonymous">
-			</script>
-
-			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-				integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-				crossorigin="anonymous">
-			</script>
+				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+					integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+					crossorigin="anonymous">
+				</script>
 </body>
 
 </html>
