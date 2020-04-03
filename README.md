@@ -1,17 +1,21 @@
-### New Gym Opening soon in London 
+# New Gym Opening soon in London 
+The live Url of the project is https://iacopo454.github.io/Milestone/ it is a responsive website for all devices from extra small to large screens and it has been made using HTML, CSS "cascading styles sheet" and Bootstrap.
+The Url works fine and has been tested on different Browsers such as Google Chrome, Mozzilla Fiefox and Safari.
+The project is on Git-Hub platform where is possible to access to all the relatives files: "https://github.com/Iacopo454/Milestone".
+In the next future I plan to add some extra content to the website, new promotions, probably for students in away to attract more members, also I plan to create a gallery where advertise some gym gadgets and products to be on sale online.
 
-This project is about creating a responsive website using Html, Css stylesheet and Bootstrap to promote a new Gym opening soon in south east London.
+The purpose of this project is to promote a new Gym opening soon in south east London, no just informing of the opening but showing to the user alredy from the homepgae some photos and giving a description of the gym, from the equipment available to an introdution of the staff-members working in the Gym. The introcuction is consist of some photos with a relative description of the personal trainer skills (from fitness to body building training).The website also expalin in a dedicated page "Learn-more" the phylosophy used to motivate the new members to achieve their goals through two Youtube videos and the relevant text. The Pricing.html  informs the users of the monthly cost or of different subscription available rather than just the gym membership, as it offers also the opportunity to practice boxing.
+The Rules.html expalain in details how professional and well organized is the gym to guarantee to their members a friendly and nice environment.  
+
 
 ## Structure 
 
-#The wensite has an index.html file that contains the homepage and welcome the user with  a slice Carousel of Images of the Gym
+# The wensite has an index.html file that contains the homepage and welcome the user with  a slide Carousel of Images of the Gym and a mocking image of a dog in training
 
--The homepage(index.html) also display a Bootstrap Navbar that give the user the opportunity to move to other pages such as : 
-
-Meet the staff, Pricing, Serious stuff and the Sign Up form and is it builded as an anchor so if the user click on it anywhere it will be redirected straight to the Homepage. 
+-The homepage(index.html) also display a Bootstrap Navbar that give the user the opportunity to move to all the other pages. 
 
 Homepage: "index.html" 
-- A separate image with famous Arnold Scwharzneger and some mochking text created using Jumbotron from Bootstrap, also the Jumbotron has a "Learn more" button which links the user to a separate page where the user can read more informations related to the Gym project.
+- Inform the users of all the training equipments available in the gym, the facilies and a discraption overall. A separate image with famous Arnold Scwharzneger and some mochking text created using Jumbotron from Bootstrap, also the Jumbotron has a "Learn more" button which links the user to a separate page where the user can read more informations related to the Gym project.
 
 # Learn more button link the user to anoter page which provide to the users more informations on the Gym concepts 
 The text its entirely wirtten by me, instead the background image "sereno.jpg" is taken from Yahoo search engine. 
