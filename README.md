@@ -1,4 +1,4 @@
-# New Gym Opening soon in London 
+# The project title is "New Gym Opening soon in London" 
 The live Url of the project is https://iacopo454.github.io/Milestone/ it is a responsive website for all devices from extra small to large screens and it has been made using HTML, CSS "cascading styles sheet" and Bootstrap.
 The Url works fine and has been tested on different Browsers such as Google Chrome, Mozzilla Fiefox and Safari.
 The project is on Git-Hub platform where is possible to access to all the relatives files: "https://github.com/Iacopo454/Milestone".
@@ -15,10 +15,13 @@ The Rules.html expalain in details how professional and well organized is the gy
 -The homepage(index.html) also display a Bootstrap Navbar that give the user the opportunity to move to all the other pages. 
 
 Homepage: "index.html" 
-- Inform the users of all the training equipments available in the gym, the facilies and a discraption overall. A separate image with famous Arnold Scwharzneger and some mochking text created using Jumbotron from Bootstrap, also the Jumbotron has a "Learn more" button which links the user to a separate page where the user can read more informations related to the Gym project.
+- Inform the users of all the training equipments available in the gym, the facilies and a discraption overall. A separate image with famous Arnold Scwharzneger and some mochking text created using Jumbotron from Bootstrap.
+The Arnold Scwharzneger Image is hidden on small devices as the image ration it was not displaying nicely the colours and so I have decide to do so, also the Jumbotron has a "Learn more" button which links the user to a separate page where the user can read more informations related to the Gym project.
 
-# Learn more button link the user to anoter page which provide to the users more informations on the Gym concepts 
-The text its entirely wirtten by me, instead the background image "sereno.jpg" is taken from Yahoo search engine. 
+Learn-more: "Learn-more.html"
+- This page provides more informations on the Gym concepts and has an Iframe with two Youtube links, one motivational about training session in general, and the other one is about a personal trainer of the gym that introduce is method of training. 
+
+The text of Learn-more.html its entirely wirtten by me, instead the background image "sereno.jpg" is taken from Yahoo search engine. 
 
 #The Iframe video is taken from Youtube, the first video source called "motivational" is of Valrocky "Train like a champion" here the link: https://www.youtube.com/watch?v=0UEUjQ546_g&t=8s
 #The second video is taken from Youtube too and the source is Criticalbench "Personal Training Workouts - Beginner to Advanced Training" here the link: https://www.youtube.com/watch?v=2U7hY_523eQ.
@@ -45,10 +48,9 @@ Meet the staff "Meet.html"
 - the page contains 6 Images and before each one there is a paragraph introducing first the whole Family and concept of the gym and then each Personal Trainer  working in the gym with a small biography of their lifes and skills. , giving the user the opportunity to get to know more about the Staff beofre joining 
 - Footer contains Social links and full address too 
 
-# The Pricing page is taken from the Bootstrap example documentation, then I have implemented some changes to it 
-Pricing "prcing.html"
--Give the users all the informations relevan on the memberships available in the gym or promotions going on
-- The page displays also a Sign Up button to open the form, the same form is also availble from the Collapse Menu button on the navbar on the top
+The Pricing "pricing.html" has been taken from the Bootstrap example documentation, then I have implemented the necessary changes to it such as the card property from Bootstrap to make it look more appealing.
+This page give the users all the informations relevant on the memberships available in the gym or the current promotions going on.
+- The page displays also a Sign Up button to open the Sign Up form, the same form is also availble from the Collapse Menu button on the navbar in all the pages, this to make sure that in the case the user decide to join the membership he has the Sign Up form always available every page.
 
 
 The Gym rules "Rules.html" 
@@ -59,6 +61,11 @@ The Gym rules "Rules.html"
 
 ## Images 
 Arnold, blonde-jpg.jpg, dog.jpg, Gym-100.jpg, Marin, Laura, Michael, Richard, sereno, palestra, yahoo, maxresdefault, gym they all been taken from Yahoo search engine. 
+The Carousel Images have been modified and replace after in the project for fitting properly together in the carousel slide, the new measures are of 5760x3840 px as you can check in any other software preview. 
+
+
+
+
 
 
 
