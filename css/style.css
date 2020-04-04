@@ -165,13 +165,9 @@ padding-left: 15px;
 margin: 5px;
 }
 
-.footer-index {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: 5px;
-    font-size: 6px;
-}
+
+
+
 
 
 /* ------Arnold-Image (no displayed on small devices)---------------- */
@@ -196,7 +192,7 @@ margin: 5px;
     padding-right: 15px;
     padding-left: 20px;
     margin: 5px;
-    font-size: 8px;
+    font-size: 12px;
 }
 
 /* -------------- Rules.html Media queries max-width-576px-------------- */
@@ -211,7 +207,7 @@ margin: 5px;
     font-size: 25px;
 }
 /* -----------Learning-more.html queries max-width-576px-------------------- */
-
+/* 
 .list-inline {
     padding-left: 0;
     margin-top: -15px;
@@ -230,7 +226,7 @@ margin: 5px;
 .footer-text1 {
     margin-left: -70px;
     /* text-align: center; */
-}
+
 
 .iframe-normal {
     height: 300px;
