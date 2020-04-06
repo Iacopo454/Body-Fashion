@@ -21,6 +21,9 @@
 </head>
 
 
+<!-- ---------Bootstrap Navbar
+Gives the users the opportunity to navigate easily between all the pages ---->
+
 <nav class="navbar-fixed-top navbar-expand-lg navbar-dark bg-dark navbar-nav ml-auto">
 	<a class="navbar-brand" href="#"></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,13 +58,16 @@
 
 
 
-<!-- Modal for Sing up form -->
+<!----------- Modal for Sing up form taken from Bootstrap.
+The Sign up form consist of two placeholders one for the contact e-mail and the other one for the password, at the bottom the form display a Sing in button to confirm the registration once all details are entered.
+The Sign up form it is not fully functional "as I do not have any backend knowledge still", this mean that the form it is not still able to record any details entered after clicking the sign in button---- -->
+
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
 	aria-hidden="true">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+				<h5 class="modal-title" id="exampleModalLabel">Register</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -78,16 +84,10 @@
 						<label for="exampleInputPassword1">Password</label>
 						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
   </div>
-						<div class="form-check">
-							<input type="checkbox" class="form-check-input" id="exampleCheck1">
-							<label class="form-check-label" for="exampleCheck1">Check me out</label>
-						</div>
-						<button type="submit" class="btn btn-primary">Submit</button>
 				</form>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				<button type="button" class="btn btn-primary">Save changes</button>
+				<button type="button" class="btn btn-primary">Sign in</button>
 			</div>
 		</div>
 	</div>
@@ -103,11 +103,13 @@
     <span aria-hidden="true">&times;</span>
   </button>
 	</div>
-	<!-- --The below form is taken from the Bootstrap examples documentation------>
+	<!-- --The code below is a  Tab taken from the Bootstrap examples documentation.The Tab consist of three different sections that inform the users of any available promotion that the Gym is currently running, from a basic membership option to the full-membership ------>
 
 	<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
 		<h2 class="display-4">Pricing</h2>
-		<h3 class="lead text-left header">Hurry up and join our gym today!</h3>
+		<center>
+			<h3 class="lead header">Hurry up and join our gym today!</h3>
+		</center>
 	</div>
 
 
@@ -144,7 +146,7 @@
 			</div>
 		</div>
 		<div class="card mb-4 shadow-sm">
-			<div class="card-header">
+			<div class="card-header mb-4">
 				<h4 class="my-0 font-weight-normal">Gym or Boxing membership</h4>
 			</div>
 			<div class="card-body">
@@ -158,7 +160,11 @@
 			</div>
 		</div>
 	</div>
-	<!-- ------------Footer------------------------------------ -->
+
+	<!-- The Footer provide all the relevant informations to find the Gym or contact the gym by e-mail also containts all the most popular social links such as: Facebook, Pinterest, Instragram,Linkdin,Twitter and Youtube. I have linked each social icon to the official website as the Gym it is not really existing and so I could not link to the icons the real webpage   -->
+
+
+
 	<footer class="bottom-fixed bg-dark text-white footer-index">
 		<div class="container-fluid container-footer">
 			<div class="row pt-4 justify-content-between">
@@ -168,43 +174,44 @@
                  SE8 4LZ Lewisham, London.</p>
 				</div>
 				<div class="col-xs-offset-1-10 col-md-4">
-					<p class="footer-text"><strong>E-mail:</strong> <br>   283body.fashion@icloud.com</p>
+					<p class="footer-text"><strong>E-mail:</strong>
+						<br>   283body.fashion@icloud.com</p>
 				</div>
 				<div class="col-xs-offset-1-10 col-md-4">
 					<p class=" footer-text2 uppercase general-sub">Social</p>
 					<ul class="list-inline social-links">
 						<li class="list-inline-item">
-							<a target="_blank" href="#">
+							<a target="_blank" href="https://www.facebook.com/">
 								<i class="fab fa-facebook" aria-hidden="true"></i>
 								<span class="sr-only">Facebook</span>
 							</a>
 						</li>
 						<li class="list-inline-item">
-							<a target="_blank" href="#">
+							<a target="_blank" href="https://twitter.com/explore">
 								<i class="fab fa-twitter" aria-hidden="true"></i>
 								<span class="sr-only">Twitter</span>
 							</a>
 						</li>
 						<li class="list-inline-item">
-							<a target="_blank" href="#">
+							<a target="_blank" href="https://gb.linkedin.com/">
 								<i class="fab fa-linkedin" aria-hidden="true"></i>
 								<span class="sr-only">LinkedIn</span>
 							</a>
 						</li>
 						<li class="list-inline-item">
-							<a target="_blank" href="#">
+							<a target="_blank" href="https://www.pinterest.co.uk/">
 								<i class="fab fa-pinterest" aria-hidden="true"></i>
 								<span class="sr-only">Pinterest</span>
 							</a>
 						</li>
 						<li class="list-inline-item">
-							<a target="_blank" href="#">
+							<a target="_blank" href="https://www.instagram.com/">
 								<i class="fab fa-instagram" aria-hidden="true"></i>
 								<span class="sr-only">Instagram</span>
 							</a>
 						</li>
 						<li class="list-inline-item">
-							<a target="_blank" href="www.youtube.com">
+							<a target="_blank" href="https://www.youtube.com/">
 								<i class="fab fa-youtube" aria-hidden="true"></i>
 								<span class="sr-only">YouTube</span>
 							</a>
@@ -215,9 +222,8 @@
 		</div>
 
 	</footer>
-
-
-
+    
+	<!--  The scripts belows are jsdelivr.net, jquery and bootstrap copied and pasted from Bootstrap and are placed to the bottom for better loading performance, instead the cdn is to make sure that the page is always fast on all the networks -->
 
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
 		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
