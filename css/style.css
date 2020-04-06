@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Exo|Roboto=|Indie+Flower&display=swap" rel="stylesheet">display:100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700,');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto|Fjalla+One&display=swap rel="stylesheet">display:100,200,300,400,500,600,700|Roboto: 100,200,300,400,500,600,700,');                                            
+
 
 body {
-
-    font-family: 'Roboto', sans-serif;
+    font-family:'Fjalla One', 'Roboto',sans-serif; 
 }
 
 /*---------------- Rules.html------ */
@@ -64,7 +65,7 @@ font-size:20px;
 }
 
 .jumbotron h1 {
-    font-family: 'Indie+Flower';
+    font-family: 'Fjalla One',sans-serif;
 
 }
 .jumbotron p {
@@ -73,6 +74,13 @@ font-size:20px;
 }
 
 /* ----------------------Learn-more.html ----------------------*/
+
+
+#overlay {
+    position: relative;
+    background-color: rgba(6, 6, 6, 0.5);
+}
+
 
 .learn {
      background: url("../images/sereno.jpg") no-repeat; 
@@ -102,7 +110,9 @@ font-size:20px;
 }
 
 .iframe-title {
+    font-family: 'Fjalla One', sans-serif;
     color:dodgerblue;
+    
 }
 
 .melone {
@@ -166,45 +176,41 @@ margin: 5px;
 }
 
 
-
-
-
-
 /* ------Arnold-Image (no displayed on small devices)---------------- */
 .img-fluid {
-    display:none;
+display:none;
 }
 /* -------Arnold Text-Image (no displayed on small devices----------- */
 .centered-2 {
-    display:none;
+display:none;
 
 }
 .block-divider--orange {
-    width: 250px;
-    height: 7px;
-    font-size: 10px;
-    background-color: orange;
+width: 250px;
+height: 7px;
+font-size: 10px;
+background-color: orange;
 }
 /* -------All footers----------------------------------------------- */
 
 .footer-index {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 20px;
-    margin: 5px;
-    font-size: 12px;
+width: 100%;
+padding-right: 15px;
+padding-left: 20px;
+margin: 5px;
+font-size: 12px;
 }
 
 /* -------------- Rules.html Media queries max-width-576px-------------- */
 
 
 .titolo { 
-    position: absolute;
-    top: 5px;
-    left: 10px;
-    margin: 3px;
-    padding: 2px;
-    font-size: 25px;
+position: absolute;
+top: 5px;
+left: 10px;
+margin: 3px;
+padding: 2px;
+font-size: 25px;
 }
 /* -----------Learning-more.html queries max-width-576px-------------------- */
 /* 
