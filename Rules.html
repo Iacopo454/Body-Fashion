@@ -18,7 +18,8 @@
 </head>
 
 
-<!-- --------------------------Bootstrap Navbar ------------------------------>
+<!-- ---------Bootstrap Navbar
+Gives the users the opportunity to navigate easily between all the pages ---->
 
 <nav class="navbar-fixed-top navbar-expand-lg navbar-dark bg-dark navbar-nav ml-auto">
 	<a class="navbar-brand" href="#"></a>
@@ -51,16 +52,16 @@
 		</ul>
 	</div>
 </nav>
+<!----------- Modal for Sing up form taken from Bootstrap.
+The Sign up form consist of two placeholders one for the contact e-mail and the other one for the password, at the bottom the form display a Sing in button to confirm the registration once all details are entered.
+The Sign up form it is not fully functional "as I do not have any backend knowledge still", this mean that the form it is not still able to record any details entered after clicking the sign in button---- -->
 
-
-
-<!--Bootstrap Modal for Sing up form -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
 	aria-hidden="true">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+				<h5 class="modal-title" id="exampleModalLabel">Register</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -78,16 +79,10 @@
 							<label for="exampleInputPassword1">Password</label>
 							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
   </div>
-							<div class="form-check">
-								<input type="checkbox" class="form-check-input" id="exampleCheck1">
-								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-							</div>
-							<button type="submit" class="btn btn-primary">Submit</button>
 					</form>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				<button type="button" class="btn btn-primary">Save changes</button>
+				<button type="button" class="btn btn-primary">Sign in</button>
 			</div>
 		</div>
 	</div>
@@ -101,8 +96,10 @@
 		<div class="row my-row justify-content-center">
 			<div class="col-xs- col-md-8 col-lg-12">
 				<div class="img1">
-					<img src="images/palestra.jpg" alt="gym" style="height:400px;width:100%;">
-					<h1 class="titolo"> THE GYM RULES</h1>
+					<img class="mt-4" src="images/palestra.jpg" alt="gym" style="height:400px;width:100%;">
+					<center>
+						<h1 class="titolo mt-4"> THE GYM RULES</h1>
+					</center>
 					<div class="d-none d-md-block">
 						<div class="img2">
 							<img  src="images/blonde-jpg.jpg" alt="trainer" style="height:250px;width:350px;">
@@ -142,7 +139,7 @@
 			<div class="col-sm">
 				<div class="card">
 					<div class="card-body">
-						<h4 class="card-title">Summary</h4>
+						<h4 class="card-title mt-4">Summary</h4>
 						<ol class="card-text">
 							<li> Be civilised.</li>
 							<li> Carry a sweat towel and use it.</li>
@@ -152,7 +149,7 @@
 							<li>Don't shave, dye your hair or eat in the sauna or steam room.</li>
 							<li>Empty your locker when you leave.</li>
 						</ol>
-						<h4 class="card-title">Dress for the gym</h4>
+						<h4 class="card-title mt-4">Dress for the gym</h4>
 						<p class="card-text">We love that you look great, we want you to look great, but the
 							gym
 							floor is not the place to whip off your shirt or worse, your shorts! No jeans or
@@ -168,7 +165,7 @@
 
 							Failure to follow this very reasonable dress code will result in denial of your
 							workout. </p>
-						<h4 class="card-title">The Gym rules</h4>
+						<h4 class="card-title mt-4">The Gym rules</h4>
 						<h5>Don’t fingerprint your friends in</h5>
 						<p class="card-text">It seems obvious really as you are on CCTV and will be caught
 							almost immediately. If you do, then your membership will be suspended until you
@@ -225,7 +222,7 @@
 						a coat
 						check, please do not leave bags/keys/phones there.
 
-						<h5>Eating and drinking</h5>
+						<h5 class="title-text mt-4">Eating and drinking</h5>
 						<p class="card-text">No food or inappropriate drinks on the gym floor and no food or
 							drink
 							in the sauna/steam rooms. You're at the gym, not at a restaurant or having a
@@ -272,7 +269,9 @@
 			</div>
 		</div>
 
-		<!-- ------------Footer------------------------------------ -->
+
+		<!-- ------------The Footer provide all the relevant informations to find the Gym or contact the gym by e-mail also containts all the most popular social links such as: Facebook, Pinterest, Instragram,Linkdin,Twitter and Youtube. I have linked each social icon to the official website as the Gym it is not really existing and so I could not link to the icons the real webpage ---->
+
 		<footer class="bottom-fixed bg-dark text-white footer-index">
 			<div class="container-fluid container-footer">
 				<div class="row pt-4 justify-content-between">
@@ -282,7 +281,8 @@
                  SE8 4LZ Lewisham, London.</p>
 					</div>
 					<div class="col-xs-offset-1-10 col-md-4">
-						<p class="footer-text"><strong>E-mail:</strong> <br>   283body.fashion@icloud.com</p>
+						<p class="footer-text"><strong>E-mail:</strong>
+							<br>   283body.fashion@icloud.com</p>
 					</div>
 					<div class="col-xs-offset-1-10 col-md-4">
 						<p class=" footer-text2 uppercase general-sub">Social</p>
@@ -311,7 +311,6 @@
 									<span class="sr-only">Pinterest</span>
 								</a>
 							</li>
-
 							<li class="list-inline-item">
 								<a target="_blank" href="https://www.instagram.com/">
 									<i class="fab fa-instagram" aria-hidden="true"></i>
@@ -319,7 +318,7 @@
 								</a>
 							</li>
 							<li class="list-inline-item">
-								<a target="_blank" href="">
+								<a target="_blank" href="https://www.youtube.com/">
 									<i class="fab fa-youtube" aria-hidden="true"></i>
 									<span class="sr-only">YouTube</span>
 								</a>
@@ -328,14 +327,9 @@
 					</div>
 				</div>
 			</div>
-
 		</footer>
 
-
-
-
-
-
+		<!--  The scripts belows are jsdelivr.net, jquery and bootstrap copied and pasted from Bootstrap and are placed to the bottom for better loading performance, instead the cdn is to make sure that the page is always fast on all the networks -->
 
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
