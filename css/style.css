@@ -9,123 +9,123 @@ body {
 /*---------------- Rules.html------ */
 
 .my-rules1-container, h1{
-    color:orangered;
+color:orangered;
  
 }
 
 .my-rules2-container, h2 { 
     
-    color:black;
+color:black;
 }
 .card-title{  
-    color:deeppink;
+color:deeppink;
 }
 /* ---------------------Block Divider------------------------ */
 .block-divider--orange {
-    width:350px;
-    height:7px;
-    font-size: 10px;
-    background-color: orange;
+width:350px;
+height:7px;
+font-size: 10px;
+background-color: orange;
 }
 /* --------index.html classes for text on images----------- */
 .my-index-container h1{
-    color:cornflowerblue;
+color:cornflowerblue;
 }
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 15px;
-    margin-left: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
+display: flex;
+flex-wrap: wrap;
+margin-right: 15px;
+margin-left: 15px;
+padding-left: 5px;
+padding-right: 5px;
 }
 
 .centered {
-    color:rgb(235, 36, 36);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+color:rgb(235, 36, 36);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 font-size:30px;
 }
 
  
 .centered-2 {
-     color:red;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+color:red;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 font-size:20px;
 }
 /* --------------------------Jumbotron Index.html------------------- */
 .jumbotron {
-    padding: 5px;
-    margin: 5px;
+padding: 5px;
+margin: 5px;
 }
 
 .jumbotron h1 {
-    font-family: 'Fjalla One',sans-serif;
+font-family: 'Fjalla One',sans-serif;
 
 }
 .jumbotron p {
-    font-family: 'Roboto',sans-serif;
-    font-size: larger;
+font-family: 'Roboto',sans-serif;
+font-size: larger;
 }
 
 /* ----------------------Learn-more.html ----------------------*/
 
 
 #overlay {
-    position: relative;
-    background-color: rgba(6, 6, 6, 0.5);
+position: relative;
+background-color: rgba(6, 6, 6, 0.5);
 }
 
 
 .learn {
-     background: url("../images/sereno.jpg") no-repeat; 
-     background-size:cover;
+background: url("../images/sereno.jpg") no-repeat; 
+background-size:cover;
  }
 .row-video {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 100px;
-    margin-left: 10px;
-    padding-left: px;
+display: flex;
+flex-wrap: wrap;
+margin-right: 100px;
+margin-left: 10px;
+padding-left: px;
 
 }
 .container-iframe {
-    max-width: 960px;
-    margin-left: 90px;
-    padding: 5px 15px;
-    margin-right: 10px;
+min-width: 90%;
+margin-left: 90px;
+padding: 5px 15px;
 }
 
+
 .iframe {
-    margin:5px 15px;
+margin:5px 15px;
 }
 .iframe-normal {
-    height:500px;
-    width:600px;
+height:500px;
+width:600px;
 }
 
 .iframe-title {
-    font-family: 'Fjalla One', sans-serif;
-    color:dodgerblue;
+font-family: 'Fjalla One', sans-serif;
+color:dodgerblue;
     
 }
 
 .melone {
-    color: #fd2626;
-    margin-top: 10px;
+color: #fd2626;
+margin-top: 10px;
 }
 .arancia { 
-    color: #fff;
+color: #fff;
 }
 .container-footer {
-    text-align:center;
-    margin-left: 3px;
-    padding-left: 2px;
+text-align:center;
+margin-left: 3px;
+padding-left: 2px;
 }
 .footer-text1 {
     
@@ -133,33 +133,33 @@ font-size:20px;
 
 /* ----------------Rules.html----------------------------- */
 .img1 {
-  position: relative;
+position: relative;
 }
 
 .img2 {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  right:50px;
-  bottom:50px;
+position: absolute;
+top: 50px;
+left: 50px;
+right:50px;
+bottom:50px;
 }
 .titolo {
-    position:absolute;
-    top:5px;
-    left:100px;
-    margin:3px;
-    padding:2px;
+position:absolute;
+top:5px;
+left:100px;
+margin:3px;
+padding:2px;
 }
 .myrules1-container {
-    padding: 5px;
-    margin:5px;
+padding: 5px;
+margin:5px;
 }
 .my-rules1-container, h1{
-    color:orangered;
+color:orangered;
  
 }
 .card-title{  
-    color:deeppink;
+color:deeppink;
 }
 /* -------------------------------Media Queries---------------- */
 
@@ -168,15 +168,8 @@ font-size:20px;
 
 @media screen and (max-width: 576px) {
 
-.container-fluid {
-width: 100%;
-padding-right: 15px;
-padding-left: 15px;
-margin: 5px;
-}
 
-
-/* ------Arnold-Image (no displayed on small devices)---------------- */
+/* --------------Arnold-Image (no displayed on small devices)---------------- */
 .img-fluid {
 display:none;
 }
@@ -185,6 +178,7 @@ display:none;
 display:none;
 
 }
+/*-- ----------------------- Block Divider------------------ */
 .block-divider--orange {
 width: 250px;
 height: 7px;
@@ -213,64 +207,43 @@ padding: 2px;
 font-size: 25px;
 }
 /* -----------Learning-more.html queries max-width-576px-------------------- */
-/* 
-.list-inline {
-    padding-left: 0;
-    margin-top: -15px;
-    padding-top: -5px;
-}
-.list-inline-item {
-    display: inline-block;
-        margin-right: -20px;
-}
-.footer-text {
-    margin-left: -40px;
-    font-size: 8px;
-}
 
-
-.footer-text1 {
-    margin-left: -70px;
-    /* text-align: center; */
 
 
 .iframe-normal {
-    height: 300px;
-    width: 250px;
-}
-.container-iframe {
-    max-width: 500px;
-    margin-left: 25px;
-    padding: 5px 15px;
-    margin-right: 20px;
+height: 300px;
+width: 250px;
 }
 
+.container-iframe {
+ min-width: 90%;
+ margin-left: 15px;
+ padding: 5px 7px;
+    
+}
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-left: 3px;
-    padding-right: 3px;
+display: flex;
+flex-wrap: wrap;
+margin-right: 10px;
+margin-left: 10px;
+padding-left: 3px;
+padding-right: 3px;
 }
 
 .melone {
-    color: #fd2626;
-    margin-top: 10px;
-    font-size: 25px;
+color: #fd2626;
+margin-top: 10px;
+font-size: 25px;
 }
 .iframe-title {
-    font-size: 30px;
-    color: dodgerblue;
-    padding-left: 25px;
+font-size: 30px;
+color: dodgerblue;
+padding-left: 25px;
 }
 .link-smaller {
-    font-size:15px;
-    margin-left:20px;
-    padding-left:10px;
+font-size:15px;
+margin-left:20px;
+padding-left:10px;
 }
 }
 
-
-
-  
