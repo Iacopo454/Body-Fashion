@@ -23,8 +23,9 @@
 </head>
 
 <body class="learn">
-	<!-- -----------------------Bootstrap Navbar --------------------------->
 
+	<!-- ---------Bootstrap Navbar
+Gives the users the opportunity to navigate easily between all the pages ---->
 	<nav class="navbar-fixed-top navbar-expand-lg navbar-dark bg-dark navbar-nav ml-auto">
 		<a class="navbar-brand" href="#"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,23 +57,24 @@
 			</ul>
 		</div>
 	</nav>
+	<!-- -----------------------End of Navbar---------------------------- -->
+	<!----------- Modal for Sing up form taken from Bootstrap.
+The Sign up form consist of two placeholders one for the contact e-mail and the other one for the password, at the bottom the form display a Sing in button to confirm the registration once all details are entered.
+The Sign up form it is not fully functional "as I do not have any backend knowledge still", this mean that the form it is not still able to record any details entered after clicking the sign in button---- -->
 
-
-
-	<!-- -------------------Bootstrap Modal for Sing up form ------------------>
 	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
 		aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<h5 class="modal-title" id="exampleModalLabel">Register</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
 				</div>
 				<div class="modal-body">
 
-					...<form>
+					<form>
 						<div class="form-group">
 							<label for="exampleInputEmail1">Email address</label>
 							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -82,21 +84,18 @@
 							<label for="exampleInputPassword1">Password</label>
 							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
   </div>
-							<div class="form-check">
-								<input type="checkbox" class="form-check-input" id="exampleCheck1">
-								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-							</div>
-							<button type="submit" class="btn btn-primary">Submit</button>
 					</form>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-primary">Save changes</button>
+					<button type="button" class="btn btn-primary">Sign in</button>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- -----------------------End of Navbar---------------------------- -->
+	<!-- End of Modal Sign up form from Toggle bar -->
+
+
+
 	<div id="overlay">
 		<div class="alert alert-primary alert-dismissible fade show" role="alert">
 			<strong>Do not waste time and join us Today!</strong> The first 50 members to join from the next 15/06 will
@@ -175,7 +174,65 @@
 			</div>
 		</div>
 	</div>
-	<!-- ------------Footer------------------------------------ -->
+
+	<!-- ------------The Footer provide all the relevant informations to find the Gym or contact the gym by e-mail also containts all the most popular social links such as: Facebook, Pinterest, Instragram,Linkdin,Twitter and Youtube. I have linked each social icon to the official website as the Gym it is not really existing and so I could not link to the icons the real webpage -->
+
+	<footer class="bottom-fixed bg-dark text-white footer-index">
+		<div class="container-fluid container-footer">
+			<div class="row pt-4 justify-content-between">
+				<div class="col-xs-offset-1-10 col-md-4">
+					<p class="footer-text1"><strong>Address:</strong><br>
+                    283 Lee High Road<br>
+                 SE8 4LZ Lewisham, London.</p>
+				</div>
+				<div class="col-xs-offset-1-10 col-md-4">
+					<p class="footer-text"><strong>E-mail:</strong>
+						<br>   283body.fashion@icloud.com</p>
+				</div>
+				<div class="col-xs-offset-1-10 col-md-4">
+					<p class=" footer-text2 uppercase general-sub">Social</p>
+					<ul class="list-inline social-links">
+						<li class="list-inline-item">
+							<a target="_blank" href="https://www.facebook.com/">
+								<i class="fab fa-facebook" aria-hidden="true"></i>
+								<span class="sr-only">Facebook</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://twitter.com/explore">
+								<i class="fab fa-twitter" aria-hidden="true"></i>
+								<span class="sr-only">Twitter</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://gb.linkedin.com/">
+								<i class="fab fa-linkedin" aria-hidden="true"></i>
+								<span class="sr-only">LinkedIn</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://www.pinterest.co.uk/">
+								<i class="fab fa-pinterest" aria-hidden="true"></i>
+								<span class="sr-only">Pinterest</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://www.instagram.com/">
+								<i class="fab fa-instagram" aria-hidden="true"></i>
+								<span class="sr-only">Instagram</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="https://www.youtube.com/">
+								<i class="fab fa-youtube" aria-hidden="true"></i>
+								<span class="sr-only">YouTube</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
 	<footer class="bottom-fixed bg-dark text-white footer-index">
 		<div class="container-fluid container-footer">
 			<div class="row pt-4 justify-content-between">
@@ -230,11 +287,8 @@
 				</div>
 			</div>
 		</div>
-
 	</footer>
-
-
-
+	<!--  The scripts belows are jsdelivr.net, jquery and bootstrap copied and pasted from Bootstrap and are placed to the bottom for better loading performance, instead the cdn is to make sure that the page is always fast on all the networks -->
 
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
 		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
