@@ -1,26 +1,39 @@
-# The project title is "New Gym Opening soon in London" 
-(The gym is an imaginary gym)
-The live Url of the project is https://iacopo454.github.io/Milestone/ it is a responsive website for all devices from extra small to large screens and it has been made using HTML, CSS "cascading styles sheet" and Bootstrap.
-The Url works fine and has been tested on different Browsers such as Google Chrome, Mozzilla Fiefox and Safari.
-The project is deplyed on Git-Hub platform where is possible to access to all the relatives files: "https://github.com/Iacopo454/Milestone".
-In the next future I plan to add some extra content to the website, new promotions, probably for students in away to attract more members, also I plan to create a gallery where advertise some gym gadgets and products to be on sale online.
+# The title for this project is:"New Gym Opening soon in London" 
+(The gym is just an imaginary gym opening soon in south east London)
+The live Url of this project is https://iacopo454.github.io/Milestone/ it is a responsive website for all devices from extra small to large screens and it has been made using HTML, CSS "cascading styles sheet" and Bootstrap.
 
-The purpose of this project is to promote a new Gym opening soon in south east London, no just informing of the opening but showing to the user alredy from the homepgae some photos and giving a description of the gym, from the equipment available to an introdution of the staff-members working in the Gym. The introcuction is consist of some photos with a relative description of the personal trainer skills (from fitness to body building training).The website also expalin in a dedicated page "Learn-more" the phylosophy used to motivate the new members to achieve their goals through two Youtube videos and the relevant text. The Pricing.html  informs the users of the monthly cost or of different subscription available rather than just the gym membership, as it offers also the opportunity to practice boxing.
-The Rules.html expalain in details how professional and well organized is the gym to guarantee to their members a friendly and nice environment.  
+# I have personally tested my code using the "Google Chrome Dev tool" for all the screen sizes, also the Url works fine and has been tested on different Browsers such as Google Chrome, Mozzilla Fiefox and Safari.
+The project is deployed on Git-Hub platform where is possible to access to all the relatives files: "https://github.com/Iacopo454/Milestone".
+In the next future I plan to add some extra content to the website, new promotions, probably for students in away to attract more new members to join, I also plan to create a photo gallery where to advertise some gym gadgets and products to be on sale online.
+I also plan to add a google map to the project in away to make it easier for the users to check where exactly the gym is and in how far they are from their location.Another feature that I might add is an online training plan to watch   and an online booking calendar for some classes activites such as fitness, spinning or yoga, to give a better experience to the users enabling them to use the site also after that they have joined the Gym.
+
+# The purpose of this project is to promote a new Gym opening soon in south east London in away to have a certain amount of memebers alredy to join in a short time from the opening day.
+The website shows to the users some photos of the personal trainers team and   of the gym, provides a description of the gym, from the equipment available to a proper introdution of the staff-members working in the Gym. The introcuction of the staff is on meet.html and consist of an indiviual photo for each trainer  with a relative description including their skills. The personal trainers skills area cover, corrective exercise, fitness, recovery from injuries,advanced resistant training, fat loss, nutrition and diet, use of free weight, building mass programs, cardio and body buildings.
+
+The website also expalin in a dedicated page "Learn-more" the phylosophy used to motivate the new members to achieve their goals through two Youtube videos and the relevant text. The Pricing.html  informs the users of the monthly cost or of different subscription available rather than just the gym membership, as it offers also the opportunity to practice boxing.
 
 
-## Structure 
+
+
+
+The Rules.html expalain in details what the users how professional and well organized is the gym to guarantee to their members a friendly and nice environment.  
+
+
+## Structure  and Sources
 
 # The index.html file is the homepage and welcome the users with a slide Carousel of Images (the code is taken from Bootstrap and then adjusted to add more images to it), the images used are showing some Gym trainers, and a mocking image of a dog in training 
 
 -All the webpages display a Bootstrap Navbar that give the user the opportunity to navigate easily to any page: Home, Learn-more.html, Meet the staff, Pricing, The Gym rules, and the Sign Up form. 
 
 Homepage: "index.html" 
-- Inform the users of all the training equipments available in the gym, the facilies and a discraption overall. A separate image with famous Arnold Scwharzneger and some mochking text created using Jumbotron from Bootstrap.
-The Arnold Scwharzneger Image is hidden on small devices as the image ration it was not displaying nicely the colours and so I have decide to do so, also the Jumbotron has a "Learn more" button which links the user to a separate page where the user can read more informations related to the Gym project.
+- Introduce the users to the gym providing informations such as: "Why is different from other gyms", what is the equipment available from the functional training equipment to the cardio area, what are the facilities, including the car park and the expert personal training in place, and inform that the Gym is a "charitable trust based"in Lewisham. A separate image with famous Arnold Scwharzneger and some mochking text created using Jumbotron from Bootstrap.
+The Arnold Scwharzneger Image is hidden on small devices as the image ratio it was not displaying nicely and so I have decide to do so, also the Jumbotron has a "Learn more" button which links the user to a separate page where is possible to read more informations related to the Gym project and watch two Youtube motivational videos, one external to the gym and one internal.
 
-# The text in the index.html regarding the Gym informations and the introduciton is taken from the website ourgym.co.uk 
+# The text in the index.html regarding the Gym informations and the introduciton is taken entirely from the website "ourgym.co.uk" 
+
 # The text in the Rules.html is taken from the www.247fitness.co
+# The text in Learn-more.html and meet.html is instead written by me.
+# The content of the Tab  in the pricing.html is wirtten by me but the code for the tab is taken from the Bootstrap example.
 
  -Introduction to the gym
  
@@ -68,8 +81,8 @@ an invitation to Read carefully the rules, the main reason to provide these info
 
 ## Images 
 The Image source for all the images is Yahoo search engine.
-Here below all the images file name:
-Arnold, blonde-jpg.jpg, dog.jpg, Gym-100.jpg, Marin, Laura, Michael, Richard, sereno, palestra, yahoo, maxresdefault, gym they all been taken from Yahoo search engine. 
+Here below all the images file name of the project:
+(Arnold.jpg, blonde-jpg.jpg, dog.jpg, Gym-100.jpg, Martin.jpg, Laura.jpg, Michael.jpg, Richard.jpg, sereno.jpg, palestra.jpg, yahoo.jpg, maxresdefault.jpg).
 The Carousel Images have been modified and replace after in the project to make sure that were fitting properly together in the carousel slide, the new measures are of 5760x3840 px as you can check in any other software preview "I used my Macbook to makes this changes". 
 
 
