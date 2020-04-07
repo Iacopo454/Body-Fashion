@@ -1,14 +1,16 @@
 # The title for this project is:"Body Fashion gym" that is the name of a new opening gym.
 (The gym is just an imaginary gym opening soon in south east London)
-The live Url of this project is https://iacopo454.github.io/Milestone/ it is a responsive website for all devices from extra small to large screens and it has been made using HTML, CSS "cascading styles sheet" and Bootstrap.
+The live Url of this project is https://iacopo454.github.io/Body-Fashion/ it is a responsive website for all devices from extra small to large screens and it has been made using HTML, CSS "cascading styles sheet" and Bootstrap.
 
-# I have personally tested my code using the "Google Chrome Dev tool" for all the screen sizes, also the Url works fine and has been tested on different Browsers such as Google Chrome, Mozzilla Fiefox and Safari.
-I have also tested the website from my mobile an Apple Highphone 8 and all is working fine.
-The project is deployed on Git-Hub platform where is possible to access to all the relatives files: "https://github.com/Iacopo454/Milestone".
-In the next future I plan to add some extra content to the website, new promotions, probably for students in away to attract more new members to join, I also plan to create a photo gallery where to advertise some gym gadgets and products to be on sale online.
+ ##I have personally tested my code 
+ I used the "Google Chrome Dev tool" for all the screen sizes, also the Url works fine and has been tested on different Browsers such as Google Chrome, Mozzilla Fiefox and Safari.
+I have also tested the website from my mobile an Apple Highphone 8 and all pages are working fine.
+The project is deployed on Git-Hub platform where is possible to access to all the relatives files: "https://github.com/Iacopo454/Body-Fashion".
+
+In the next future I plan to add some extra text content to the website, to make the website more appealing to users, new promotions probably for students in away to attract more new members to join, to create a photo gallery where to advertise some gym gadgets and products to be on sale online.
 I also plan to add a google map to the project in away to make it easier for the users to check where exactly the gym is and in how far they are from their location.Another feature that I might add is an online training plan to watch   and an online booking calendar for some classes activites such as fitness, spinning or yoga, to give a better experience to the users enabling them to use the site also after that they have joined the Gym.
 
-# The purpose of this project is to promote a new Gym opening soon in south east London in away to have a certain amount of memebers alredy to join in a short time from the opening day.
+## The purpose of this project is to promote a new Gym opening soon in south east London in away to have a good amount of memebers to join in a short time.
 The website shows to the users some photos of the personal trainers team and   of the gym, provides a description of the gym, from the equipment available to a proper introdution of the staff-members working in the Gym. The introcuction of the staff is on meet.html and consist of an indiviual photo for each trainer  with a relative description including their skills. The personal trainers skills area cover, corrective exercise, fitness, recovery from injuries,advanced resistant training, fat loss, nutrition and diet, use of free weight, building mass programs, cardio and body buildings.
 
 The website also expalin in a dedicated page "Learn-more" the phylosophy used to motivate the new members to achieve their goals through two Youtube videos and the relevant text. The Pricing.html  informs the users of the monthly cost or of different subscription available rather than just the gym membership, as it offers also the opportunity to practice boxing.
