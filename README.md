@@ -3,6 +3,7 @@
 The live Url of this project is https://iacopo454.github.io/Milestone/ it is a responsive website for all devices from extra small to large screens and it has been made using HTML, CSS "cascading styles sheet" and Bootstrap.
 
 # I have personally tested my code using the "Google Chrome Dev tool" for all the screen sizes, also the Url works fine and has been tested on different Browsers such as Google Chrome, Mozzilla Fiefox and Safari.
+I have also tested the website from my mobile an Apple Highphone 8 and all is working fine.
 The project is deployed on Git-Hub platform where is possible to access to all the relatives files: "https://github.com/Iacopo454/Milestone".
 In the next future I plan to add some extra content to the website, new promotions, probably for students in away to attract more new members to join, I also plan to create a photo gallery where to advertise some gym gadgets and products to be on sale online.
 I also plan to add a google map to the project in away to make it easier for the users to check where exactly the gym is and in how far they are from their location.Another feature that I might add is an online training plan to watch   and an online booking calendar for some classes activites such as fitness, spinning or yoga, to give a better experience to the users enabling them to use the site also after that they have joined the Gym.
@@ -11,10 +12,6 @@ I also plan to add a google map to the project in away to make it easier for the
 The website shows to the users some photos of the personal trainers team and   of the gym, provides a description of the gym, from the equipment available to a proper introdution of the staff-members working in the Gym. The introcuction of the staff is on meet.html and consist of an indiviual photo for each trainer  with a relative description including their skills. The personal trainers skills area cover, corrective exercise, fitness, recovery from injuries,advanced resistant training, fat loss, nutrition and diet, use of free weight, building mass programs, cardio and body buildings.
 
 The website also expalin in a dedicated page "Learn-more" the phylosophy used to motivate the new members to achieve their goals through two Youtube videos and the relevant text. The Pricing.html  informs the users of the monthly cost or of different subscription available rather than just the gym membership, as it offers also the opportunity to practice boxing.
-
-
-
-
 
 The Rules.html expalain in details what the users how professional and well organized is the gym to guarantee to their members a friendly and nice environment.  
 
@@ -75,9 +72,10 @@ This page give the users all the informations relevant the memberships available
 
 The Gym rules "Rules.html" 
 - On this page the user can read all the Gym rules and find out what is not allowed to do inside the premises and relevant informations such as: 
-an invitation to Read carefully the rules, the main reason to provide these informations that is to "guarantee a nice environment" to all the members, a summary of things that are not recommended to do and not allowed at all, also provides informations on how to dress for the Gym, and some important reminder such as "report issues quickly", and to do not leave items in the lockers when finsihed and out of the premises.
+an invitation to Read carefully the rules, the main reason to provide these informations is to "guarantee a nice environment" to all the members, a summary of things that are not recommended to do and not allowed at all, also provide informations on how to dress for the Gym, and some important reminder such as "report issues quickly", and to do not leave items in the lockers when finsihed and out of the premises.
 
-- I used two images below the Navbar to introduce the page, one image is overlap to the other one,  I manage to create this effect using two different position for the two images, one relative and the other one absolute. 
+- I used two images below the Navbar to introduce the page on large and extra large screen devices, instead on all other screen sizes the page displays with only one image as I have hidden the small one for better visualization.
+The image that overlap is blonde-jpg.jpg on the other one called palestra.jpg, I created this effect using two different position for the two images, one relative (for the palestra.jpg) and the other one absolute(for blonde-jpg.jpg). 
 
 ## Images 
 The Image source for all the images is Yahoo search engine.
