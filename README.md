@@ -28,11 +28,11 @@ Homepage: "index.html"
 - Introduce the users to the gym providing informations such as: "Why is different from other gyms", what is the equipment available from the functional training equipment to the cardio area, what are the facilities, including the car park and the expert personal training in place, and inform that the Gym is a "charitable trust based"in Lewisham. A separate image with famous Arnold Scwharzneger and some mochking text created using Jumbotron from Bootstrap.
 The Arnold Scwharzneger Image is hidden on small devices as the image ratio it was not displaying nicely and so I have decide to do so, also the Jumbotron has a "Learn more" button which links the user to a separate page where is possible to read more informations related to the Gym project and watch two Youtube motivational videos, one external to the gym and one internal.
 
-# The text in the index.html regarding the Gym informations and the introduciton is taken entirely from the website "ourgym.co.uk" 
+## The text in the index.html regarding the Gym informations and the introduciton is taken entirely from the website "ourgym.co.uk" 
 
-# The text in the Rules.html is taken from the www.247fitness.co
-# The text in Learn-more.html and meet.html is instead written by me.
-# The content of the Tab  in the pricing.html is wirtten by me but the code for the tab is taken from the Bootstrap example.
+### The text in the Rules.html is taken from the www.247fitness.co
+### The text in Learn-more.html and meet.html is instead written by me.
+### The content of the Tab  in the pricing.html is wirtten by me but the code for the tab is taken from the Bootstrap example.
 
  -Introduction to the gym
  
@@ -52,8 +52,8 @@ After creating the background image and the text that is entirely written by me,
 
 The background image "sereno.jpg" is taken from Yahoo search engine as for all the other images. 
 
-#The Iframe video is taken from Youtube, the first video source called "motivational" is of Valrocky "Train like a champion" here the link: https://www.youtube.com/watch?v=0UEUjQ546_g&t=8s
-#The second video is taken from Youtube too and the source is Criticalbench "Personal Training Workouts - Beginner to Advanced Training" here the link: https://www.youtube.com/watch?v=2U7hY_523eQ.
+## The Iframe video is taken from Youtube, the first video source called "motivational" is of Valrocky "Train like a champion" here the link: https://www.youtube.com/watch?v=0UEUjQ546_g&t=8s
+## The second video is taken from Youtube too and the source is Criticalbench "Personal Training Workouts - Beginner to Advanced Training" here the link: https://www.youtube.com/watch?v=2U7hY_523eQ.
 
 Pn: "My intention initially was to link a Facebook page and Youtube but apparently after checking an error in the console "X-frames-Options to deny" and searching on Google the error, I find out on stackoverflow.com that it is not possible to add a facebook page because Facebook does not allowed it and block it", perhaps it might be possible to do it with some other code configuration to go around it.
 At the end I have linked two youtube videos instead to the same Iframe.
