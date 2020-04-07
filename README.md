@@ -1,4 +1,4 @@
-# The title for this project is:"New Gym Opening soon in London" 
+# The title for this project is:"Body Fashion gym" that is the name of a new opening gym.
 (The gym is just an imaginary gym opening soon in south east London)
 The live Url of this project is https://iacopo454.github.io/Milestone/ it is a responsive website for all devices from extra small to large screens and it has been made using HTML, CSS "cascading styles sheet" and Bootstrap.
 
