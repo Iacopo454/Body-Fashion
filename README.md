@@ -1,12 +1,12 @@
 # The title for this project is:"Body Fashion gym" that is the name of a new opening gym.
 (The gym is just an imaginary gym opening soon in south east London)
-The live Url of this project is https://iacopo454.github.io/Body-Fashion/ it is a responsive website for all devices from extra small to large screens and it has been made using HTML, CSS "cascading styles sheet" and Bootstrap.
+### The live Url of this project is https://iacopo454.github.io/Body-Fashion/ it is a responsive website for all devices from extra small to large screens and it has been made using HTML, CSS "cascading styles sheet" and Bootstrap.
 
  ##I have personally tested my code 
  I used the "Google Chrome Dev tool" for all the screen sizes, also the Url works fine and has been tested on different Browsers such as Google Chrome, Mozzilla Fiefox and Safari.
 I have also tested the website from my mobile an Apple Highphone 8 and all pages are working fine.
 I have made all the changes that my mentor recommended me to do before to submit my project and review it again with her for minor changes at the end, such as making sure that all the pages are responsive, giving margins for better results, adjusting the Sign in form, positioning at the centre some text content and elements on different pages.
-The project is deployed on Git-Hub platform where is possible to access to all the relatives files, this is the link https://github.com/Iacopo454/Body-Fashion.
+### The project is deployed on Git-Hub platform where is possible to access to all the relatives files, this is the link https://github.com/Iacopo454/Body-Fashion.
 
 In the next future I plan to add some extra text content to the website, to make the website more appealing to users, new promotions probably for students in away to attract more new members to join, to create a photo gallery where to advertise some gym gadgets and products to be on sale online.
 I also plan to add a google map to the project in away to make it easier for the users to check where exactly the gym is and in how far they are from their location.Another feature that I might add is an online training plan to watch   and an online booking calendar for some classes activites such as fitness, spinning or yoga, to give a better experience to the users enabling them to use the site also after that they have joined the Gym.
