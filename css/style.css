@@ -6,7 +6,7 @@ body {
     font-family:'Fjalla One', 'Roboto',sans-serif; 
 }
 
-/*---------------- Rules.html------ */
+/*---------------- rules.html---------------------------------- */
 
 .my-rules1-container, h1{
 color:orangered;
@@ -27,7 +27,7 @@ height:7px;
 font-size: 10px;
 background-color: orange;
 }
-/* --------index.html classes for text on images----------- */
+/* ------------------------index.html classes for text on images----------- */
 .my-index-container h1{
 color:cornflowerblue;
 }
@@ -58,7 +58,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 font-size:20px;
 }
-/* --------------------------Jumbotron Index.html------------------- */
+/* --------------------------------Jumbotron Index.html------------------- */
 .jumbotron {
 padding: 5px;
 margin: 5px;
@@ -73,9 +73,7 @@ font-family: 'Roboto',sans-serif;
 font-size: larger;
 }
 
-/* ----------------------Learn-more.html ----------------------*/
-
-
+/* ----------------------------------learn-more.html ----------------------*/
 #overlay {
 position: relative;
 background-color: rgba(6, 6, 6, 0.5);
@@ -127,11 +125,9 @@ text-align:center;
 margin-left: 3px;
 padding-left: 2px;
 }
-.footer-text1 {
-    
-}
 
-/* ----------------Rules.html----------------------------- */
+
+/* -----------------------------rules.html----------------------------- */
 .img1 {
 position: relative;
 }
@@ -195,7 +191,7 @@ margin: 5px;
 font-size: 12px;
 }
 
-/* -------------- Rules.html Media queries max-width-576px-------------- */
+/* -------------- rules.html Media queries max-width-576px-------------- */
 
 
 .titolo { 
@@ -206,7 +202,7 @@ margin: 3px;
 padding: 2px;
 font-size: 25px;
 }
-/* -----------Learning-more.html queries max-width-576px-------------------- */
+/* -----------learning-more.html queries max-width-576px-------------------- */
 
 
 
