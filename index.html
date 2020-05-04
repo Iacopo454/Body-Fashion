@@ -6,101 +6,100 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-
-
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
 		type="text/css" />
-
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
-		integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/7a1826fcc6.js" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="asset/css/style.css" type="text/css" />
 
-	<!------ this is the name of the Gym that is going to open soon----------->
-	<title>Body Fashion Gym</title>
+	<!-- the Gym name -->
+	<title>Body Fashion</title>
 </head>
 
-<!-- ---------Bootstrap Navbar
+<body>
+	<!-- Bootstrap Navbar
 Gives the users the opportunity to navigate easily between all the pages
-Home, Meet the staff, Pricing, The Gym rules, Learn more and the Sign up form ---->
+Home, Meet the staff, Pricing, The Gym rules, Learn more and the Sign up form -->
 
-<nav class="navbar-fixed-top navbar-expand-lg navbar-dark bg-dark navbar-nav ml-auto">
-	<a class="navbar-brand" href="#"></a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+	<nav class="navbar-fixed-top navbar-expand-lg navbar-dark bg-dark navbar-nav ml-auto">
+		<h2 class="navbar-title text-center font-weight-bold">BODY FASHION</h2>
+		<a class="navbar-brand" href="#"> </a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
+             
         </button>
-	<!--  Menu containing all the navigation pages available on the website -->
-	<div class="collapse navbar-collapse fixed top" id="navbarText">
-		<ul class="navbar-nav mr-auto">
-			<li class="nav-item active">
-				<a class="nav-link" href="index.html">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="meet.html">Meet the staff </a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="pricing.html">Pricing</a>
-			</li>
-			<li class="navbar-item">
-				<a class="nav-link" href="rules.html">The Gym rules</a>
-			</li>
-			<li class="navbar-item">
-				<a class="nav-link" href="learn-more.html">Learn more</a>
-			</li>
-			<!-- ------tag navbar-link to connect the Sign up form -->
-			<li class="navbar-item">
-				<a class="nav-link" data-toggle="modal" data-target="#exampleModal"> Sign Up</a>
-				<!-- -----End of tag (taken from Stackoverflow website) -->
-			</li>
-		</ul>
-	</div>
-</nav>
+		<!-- Navbar containing all the navigation pages available on the website  -->
+		<div class="collapse navbar-collapse fixed top" id="navbarText">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="meet.html">Meet the staff </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="pricing.html">Pricing</a>
+				</li>
+				<li class="navbar-item">
+					<a class="nav-link" href="rules.html">The Gym rules</a>
+				</li>
+				<li class="navbar-item">
+					<a class="nav-link" href="learn-more.html">Learn more</a>
+				</li>
+				<!-- tag navbar-link to connect the Sign up form -->
+				<li class="navbar-item">
+					<a class="nav-link" data-toggle="modal" data-target="#exampleModal"> Sign Up</a>
+					<!-- End of tag (taken from Stackoverflow website) -->
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-<!----------- Modal for Sing up form is taken from Bootstrap website.
+	<!-- Modal for Sing up form is taken from Bootstrap website.
 The Sign up form consist of two placeholders, one for the contact e-mail and the other one for entering the password, at the bottom the form display a Sing in button to confirm the registration once all details are entered.
-The Sign up form it is not fully functional "as I do not have any backend knowledge still", this mean that the form it is not still able to record any details entered after clicking the sign in button---- -->
+The Sign up form it is not fully functional "as I do not have any backend knowledge still", this mean that the form it is not still able to record any details entered after clicking the sign in button -->
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-	aria-hidden="true">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Register</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Register</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-			</div>
-			<div class="modal-body">
+				</div>
+				<div class="modal-body">
 
-				<form>
-					<div class="form-group">
-						<label for="exampleInputEmail1">Email address</label>
-						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-						<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-					</div>
-					<div class="form-group">
-						<label for="exampleInputPassword1">Password</label>
-						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
   </div>
-				</form>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-primary">Sign in</button>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Sign in</button>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<!-------------------------- End of Sign up form-------------------------------->
+	<!-- End of Sign up form -->
 
-<body>
-	<!-- --------The code below is taken from the Bootstrap and it is called "Carousel" it is a slider of images that moves left or right, I have then modified the code adding some more div with carousel-item in away to add the number of Images that I wanted to use in the project--------- -->
+
+	<!-- The code below is taken from the Bootstrap and it is called "Carousel" it is a slider of images that moves left or right, I have then modified the code adding some more div with carousel-item in away to add the number of Images that I wanted to use in the project -->
 
 
 	<div class="row row-carousel">
-		<div class="col-xs-offset-1-8 col-md-offse-10- col-12">
+		<div class="col-12">
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -111,198 +110,189 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
 				<div class="carousel-inner no-gutters">
 					<div class="carousel-item active">
 						<div class="container container8">
-							<img src="images/Gym-100.jpg" class="d-block w-100" style="height:100vh" alt="Gyms">
+							<div class="row">
+								<img src="asset/images/Gym-100.jpg" class="img-responsive col"  alt="Gyms">
+                            </div>
 
-							<div class="centered">Welcome To Body Fashion</div>
+								<div class="text-on-gym-image d-none d-sm-block ">Welcome To Body Fashion</div>
+							</div>
 						</div>
-					</div>
-					<div class="carousel-item">
-						<img src="images/Ourteam.jpg" class="d-block  w-100" style="height:80vh" alt="Trainer">
-    </div>
 						<div class="carousel-item">
-							<img src="images/dog.jpg" class="d-block w-100" style="height:80vh" alt="Dogs">
+							<img src="asset/images/Ourteam.jpg" class="img-responsive col"  alt="Trainer">
     </div>
 							<div class="carousel-item">
-								<img src="images/Richard.jpg" class="d-block w-100" style="height:80vh" alt="Trainer">
+								<img src="asset/images/dog.jpg" class="img-responsive col"  alt="Dogs">
     </div>
+								<div class="carousel-item">
+									<img src="asset/images/Martin.jpg" class="img-responsive col"  alt="Trainer">
+    </div>
+								</div>
+
+
+
+								<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+									data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+									data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
 							</div>
-
-
-
-							<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-								data-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
-							</a>
-							<a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-								data-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
-							</a>
 						</div>
 					</div>
-				</div>
 
 
-				<div class="container-fluid my-index-container">
-					<div class="row">
-						<div class="col-xs-offset-1-8 col-md-offse-10- col-12">
-							<div class="jumbotron jumbotron-fluid no-gutters">
-								<center>
-									<h1 class="display-6">Opening Soon in London: "BODY FASHION"</h1>
+
+					<div class="container-fluid my-index-container">
+						<div class="row">
+							<div class="col-12">
+								<div class="jumbotron jumbotron-fluid no-gutters">
+
+									<h1 class="display-6 text-center">Opening Soon in London:</h1>
+									<h1 class="display text-center"><strong>"BODY FASHION"</strong></h1>
 									<p>Get in Touch...and Join our Family</p>
-								</center>
 
 
-								<p><a class="btn btn-primary btn-lg" href="Learn-more.html" target="_blank"
-										role="button">Learn more</a>
-								</p>
 
-								<div class="container no-gutters container6">
-									<div class="row my-row">
-										<div class="col d-xs-none d-block ">
-											<img src="images/Arnold.jpg"  alt="Responsive Bootstrap Image" class= "img-fluid" style="height:450px;width:100%;">
+									<p><a class="" href="Learn-more.html" target="_blank"
+									
+											role="button">Learn more</a>
+									</p>
+
+									<div class="container no-gutters container6">
+										<div class="row">
+											<div class="col-12 d-none d-sm-block">
+												<img src="asset/images/Arnold.jpg"  alt="Responsive Bootstrap Image" class= "img-fluid">
 
 
-											<!-- ------Text for Arnold and the image that is up, are both taken from Yahoo search engine, I have centered the text on the Image giving to the text a class of "centered-2" and then giving the right positon in the css stylesheet.
-    The Image it is only displaying on medium and large devices and not for small device lower than 576px, that because I decided that the page was nicer without this image on small screens ---------->
 
-											<div class="centered-2">Having a pump is like having sex. I train two,
-												sometimes
-												three
-												times a day. Each
-												time
-												I get a pump, It's great. I feel like I'm coming all day."</div>
+												<!-- Text for Arnold and the image that is up, are both taken from Yahoo search engine, I have centered the text on the Image giving to the text a class of "centered-2" and then giving the right positon in the css stylesheet.
+    The Image it is only displaying on medium and large devices and not for small device lower than 576px, that because I decided that the page was nicer without this image on small screens -->
+
+												<p class="text-center">Arnold: "Having a pump is like having sex". I
+													train two,
+													sometimes
+													three
+													times a day. Each
+													time
+													I get a pump, It's great. I feel like I'm coming all day."</p>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+
 					</div>
 
-				</div>
-				<!-----------All the text is taken from the website ourgym.co.uk ----------  -->
-				<!-- The code below introduce the user to the Gym explaning what they can expect from it in details, providing informations such as the number of fitness classes and the programme in place for training  -->
 
-				<hr class="block-divider block-divider--orange" />
-				<div class="row justify-content-round">
-					<div class="col-xs-offset-1-8 col-md-offse-10- col-12">
-						<h2 class="display-6"> "What to Expect..."</h2>
+					<!-- I have create a container (with a class name of "container-index" to style some propert in the style.css), inside the container I set a row with two columns inside to display on Medium size devices using Bootstrap, in a way to give a better user experience when reading the gym description for facilities,equipments and expectations. -->
+					<!-- Pn: Also the text has been taken from another gym website ourgym.co.uk -->
 
-						<p>At Body Fashion Gym you can enjoy top notch equipment on our spacious gym
-							floor,
-							get your
-							group fitness kicks with over 400 classes a month, or warm up and wind down in
-							our
-							indoor,
-							heated swimming pool.
+					<!-- The text below is the left section on Medium screen devices and large, and describe to the user what can expect from this gym, and what makes it different from other competitors -->
 
-							Use our Smart Start programme to kickstart your fitness journey. Let's go...</p>
+					<div class="container container-index">
+						<div class="row">
+							<div class="col-xs-12 col-md-6">
+								<h3 class="col-12">"What to Expect..." </h3>
+								<hr>
+								<p class="text-left">At Body Fashion Gym you can enjoy top notch equipment on our
+									spacious gym
+									floor,
+									get your
+									group fitness kicks with over 400 classes a month, or warm up and wind down in
+									our
+									indoor,
+									heated swimming pool.
 
-						<!--  The image below is taken from Yahoo search engine, and it shows the boxing aread of the gym and seperate two sections of the introduction -->
+									Use our Smart Start programme to kickstart your fitness journey. Let's go...
+								</p>
+								<img src="asset/images/palestra.jpg" class="img-thumbnail" style="height:auto;width:auto" alt="gym photo">
+								<h3 class="text-left mt-4">What makes our gym different?</h3>
+								<hr>
+								<p class="text-left">Friendly & knowledgeable staff on site at all times</p>
 
-						<img src="images/palestra.jpg" class="img-thumbnail" style="height:auto;width:auto">
-            </div>
-						<!-- The text below inform the users of what makes this Gym different from the others giving informations on how thw gym is organized at 360 degrees -->
+								<p class="text-left">30+ free bookable exercise classes* every week!</p>
 
-						<div class="col-xs-offset-1-8 col-md-offset-10- col-12">
-							<h2 class="display-6">What makes our gym different
-							</h2>
-							<hr>
-							<p>Friendly & knowledgeable staff on site at all times</p>
+								<p class="text-left">4.000 sq. ft. of gym space accommodating over 50 gym stations
+								</p>
 
-							<p>30+ free bookable exercise classes* every week!</p>
+								<p class="text-left">rig – versatile, multi-purpose and limitless – one of the most
+									after pieces
+									of equipment in the
+									industry</p>
 
-							<p>4.000 sq. ft. of gym space accommodating over 50 gym stations</p>
+								<p class="text-left">Refer a friend and receive a free personal training session</p>
 
-							<p>rig – versatile, multi-purpose and limitless – one of the most after pieces
-								of equipment in the
-								industry</p>
+								<p class="text-left">All Our Gym Members now receive a 20% discount on certain
+									activities at the
+									XC extreme sports
+									centre, giving you an additional way to work out.</p>
 
-							<p>Refer a friend and receive a free personal training session</p>
+								<p class="text-left"> We are a charitable trust based in Lewisham – this means we
+									don’t pay
+									shareholders and any
+									profits we make are re-invested into our local facilities</p>
 
-							<p>All Our Gym Members now receive a 20% discount on certain activities at the
-								XC extreme sports
-								centre, giving you an additional way to work out.</p>
-
-							<p> We are a charitable trust based in Lewisham – this means we don’t pay
-								shareholders and any
-								profits we make are re-invested into our local facilities</p>
-
-							<p>Freeze – if you need to put your membership on hold, you can!</p>
-
-							<p>Exceptional value with no compromise on service</p>
-						</div>
-						<!---The text below inform the users in a more detailed way of all the facilities available to this Gym, those have been displayed with an unorder list and each faicilty has a list item to give to the user a better and clear visibility of the Gym potential. 
-For every card I have given some top margin for better visualization------------->
-
-						<div class="col-xs-offset-1-8 col-md-offset-10- col-12">
-							<div class="card mt-4">
-								<div class="card-header">Our Gym facilities</div>
-								<div class="card-body">
-									<ul>
-										<li>Free parking</li>
-										<li>Private showers</li>
-										<li>Lockers available</li>
-										<li>Expert personal training from our dedicated team</li>
-										<li>Corporate packages and corporate classes available</li>
-									</ul>
-								</div>
+								<p class="text-left">Freeze – if you need to put your membership on hold, you can!
+									Exceptional value with no compromise on service</p>
 							</div>
-						</div>
-						<div class="col-xs-offset-1-8 col-md-offset-10- col-12">
-							<div class="card mt-4">
-								<div class="card-header">Functional Training Equipment</div>
-								<div class="card-body">
-									<ul>
-										<li>Multi functional rig</li>
-										<li>Battle ropes</li>
-										<li>Plyometric boxes</li>
-										<li>Kettlebells</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<!-- The text below gives more details on the training machines available in the gym -->
-						<div class="col-xs-offset-1-8 col-md-offse-10- col-12">
-							<div class="card mt-4">
-								<div class="card-header">Cardio Equipment</div>
-								<div class="card-body">
-									<ul>
-										<li>Treadmills</li>
-										<li>Cross trainers</li>
-										<li>Exercise bikes</li>
-										<li>Air assault bike</li>
-										<li>Stair climbers</li>
-										<li>Rowing machines</li>
-										<li>Spin bikes</li>
-										<li>Built in TV’s on most cardio machines</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row mt-4">
-						<!-- ------ The text below explain to the users the importance to go in gym and how this improves the life style of the memebers ----------------------------->
-						<div class="col-xs-offset-1-8 col-md-offse-10- col-12">
-							<h2 class="display-6 mt-4">Why is it important to keep in shape?</h2>
-							<hr>
-							<p>Take a walk or head to the gym for a quick workout. One of the most
-								common
-								mental benefits of exercise is stress relief. Working up a sweat can help
-								manage physical and mental stress. Exercise also increases concentrations of
-								norepinephrine, a chemical that can moderate the brain’s response to stress.
-							</p>
-						</div>
-						<div class="col-xs-offset-1-5-col-6 col-md-offset-10- col-12">
-							<!-- `The image is also taken from Yahoo and provides to the users some helpful informations on why it is important to keep in shape ------------>
 
-							<img src="images/maxresdefault.jpg" class="img-thumbnail" style="height:auto;width:auto">
-            </div>
+							<!-- The text below is the right section on Medium screen device and large, It inform the users about what are the facilities available and the gym equipments  -->
+
+							<div class="col-xs-12 col-md-6">
+								<h3 class="text-center">Our Gym facilities</h3>
+								<hr>
+								<ul class="text-left">
+									<li>Free parking</li>
+									<li>Private showers</li>
+									<li>Lockers available</li>
+									<li>Expert personal training from our dedicated team</li>
+									<li>Corporate packages and corporate classes available</li>
+								</ul>
+								<h3 class="text-center mt-4">Functional Training Equipment</h3>
+								<hr>
+								<ul class="text-left">
+									<li>Multi functional rig</li>
+									<li>Battle ropes</li>
+									<li>Plyometric boxes</li>
+									<li>Kettlebells</li>
+								</ul>
+								<h3 class="text-center mt-4">Cardio Equipment</h3>
+								<hr>
+								<ul class="text-left">
+									<li>Treadmills</li>
+									<li>Cross trainers</li>
+									<li>Exercise bikes</li>
+									<li>Air assault bike</li>
+									<li>Stair climbers</li>
+									<li>Rowing machines</li>
+									<li>Spin bikes</li>
+									<li>Built in TV’s on most cardio machines</li>
+								</ul>
+
+								<h3 class="text-left">Why is it important to keep in shape?</h3>
+								<hr>
+								<p class="text-left">Take a walk or head to the gym for a quick workout. One of the
+									most
+									common
+									mental benefits of exercise is stress relief. Working up a sweat can help
+									manage physical and mental stress. Exercise also increases concentrations of
+									norepinephrine, a chemical that can moderate the brain’s response to stress.
+								</p>
+								<img src="asset/images/maxresdefault.jpg" class="d-lg-none d-md-none img-thumbnail" alt="Motivational image">
+
+</div>
+							</div>
+
 						</div>
 
-						<!-- ------------The Footer provide all the relevant informations to find the Gym or contact the gym by e-mail also containts all the most popular social links such as: Facebook, Pinterest, Instragram,Linkdin,Twitter and Youtube. I have linked each social icon to the official website as the Gym it is not really existing and so I could not link to the icons the real webpage 
-                    ----------------------------------- -->
+						<!-- The Footer consist of a container with three columns on Medium, Large screen devices and instead a full column on small and extra-small screen devices.   
+                            It provides all the most important informations to find and contact the Business "the Gym": full address, contact e-mail  and all the most popular social links such as: Facebook, Pinterest, Instragram,Linkdin,Twitter and Youtube. I have linked each social icon to the official website of the relevant social network, becuase the Gym it is not existing I could not link the icons to a real webpage -->
+
 						<footer class="bottom-fixed bg-dark text-white footer-index">
 							<div class="container-fluid container-footer">
 								<div class="row pt-4 justify-content-between">
@@ -358,14 +348,11 @@ For every card I have given some top margin for better visualization------------
 									</div>
 								</div>
 							</div>
-
 						</footer>
-						<!--  The scripts belows are jsdelivr.net, jquery and bootstrap copied and pasted from Bootstrap and are placed to the bottom for better loading performance, instead the cdn is to make sure that the page is always fast on all the networks -->
+						<!-- The scripts below are jquery and bootstrap copied and pasted from Bootstrap 
+							and are placed to the bottom for better loading performance, instead the cdn "content delivery network" improves the performance of loading of the website -->
 
-						<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-							integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-							crossorigin="anonymous">
-						</script>
+
 
 						<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 							integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

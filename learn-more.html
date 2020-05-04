@@ -6,36 +6,36 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-
-
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
 		type="text/css" />
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
-		integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/7a1826fcc6.js" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="asset/css/style.css" type="text/css" />
 
-	<!------ this is the name of the Gym that is going to open soon----------->
-	<title>Body Fashion Gym</title>
+	<!-- this is the name of the Gym that is going to open soon-->
+	<title>More informations about the Gym</title>
 </head>
 
 <body class="learn">
 
-	<!-- ---------Bootstrap Navbar
-Gives the users the opportunity to navigate easily between all the pages ---->
+	<!-- Bootstrap Navbar
+Gives the users the opportunity to navigate easily between all the pages-->
 	<nav class="navbar-fixed-top navbar-expand-lg navbar-dark bg-dark navbar-nav ml-auto">
+		<h2 class="navbar-title text-center font-weight-bold">BODY FASHION</h2>
 		<a class="navbar-brand" href="#"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
+    
         </button>
 		<!--  Menu containing all the navigation pages available on the website -->
 		<div class="collapse navbar-collapse fixed top" id="navbarText">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
+
+				<li class="nav-item">
 					<a class="nav-link" href="index.html">Home</a>
 				</li>
 				<li class="nav-item">
@@ -47,21 +47,22 @@ Gives the users the opportunity to navigate easily between all the pages ---->
 				<li class="navbar-item">
 					<a class="nav-link" href="rules.html">The Gym rules</a>
 				</li>
-				<li class="navbar-item">
+				<li class="navbar-item active">
 					<a class="nav-link" href="learn-more.html">Learn more</a>
 				</li>
-				<!-- ------tag navbar-link to connect the sign up form -->
+				<!-- tag navbar-link to connect the sign up form  -->
 				<li class="navbar-item">
 					<a class="nav-link" data-toggle="modal" data-target="#exampleModal"> Sign Up</a>
-					<!--------------------- -----End of tag (taken from Stackoverflow) ----------->
+					<!-- End of tag (taken from Stackoverflow)  -->
 				</li>
 			</ul>
 		</div>
 	</nav>
-	<!-- -----------------------End of Navbar---------------------------- -->
-	<!----------- Modal for Sing up form taken from Bootstrap.
+	<!-- End of Navbar -->
+
+	<!--Modal for Sing up form taken from Bootstrap.
 The Sign up form consist of two placeholders one for the contact e-mail and the other one for the password, at the bottom the form display a Sing in button to confirm the registration once all details are entered.
-The Sign up form it is not fully functional "as I do not have any backend knowledge still", this mean that the form it is not still able to record any details entered after clicking the sign in button---- -->
+The Sign up form it is not fully functional "as I do not have any backend knowledge still", this mean that the form it is not still able to record any details entered after clicking the sign in button -->
 
 	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
 		aria-hidden="true">
@@ -95,8 +96,6 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
 	</div>
 	<!-- End of Modal Sign up form from Toggle bar -->
 
-
-
 	<div id="overlay">
 		<div class="alert alert-primary alert-dismissible fade show" role="alert">
 			<strong>Do not waste time and join us Today!</strong> The first 50 members to join from the next 15/06 will
@@ -108,75 +107,204 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
 
 
 
-		<!--------------------- Youtube Iframe Train as  A champion---------- -->
+		<!-- Youtube Iframe Train as  A champion -->
 
+		<!-- <div class="iframe" -->
+		<div class="container container-learn-more">
 
-
-		<!-- -----------------------<div class="iframe">--------------------- -->
-		<div class="container container-iframe justify-content-center">
-			<div class="row row-video justify-content-center">
-				<div class="col-xs-col-4 col-offset-3-md-5 col-offset-1-lg-12">
-					<h1 class="iframe-title">GET INSPIRED</h1>
-
-					<iframe class="iframe-normal" src="https://www.youtube.com/embed/0UEUjQ546_g" name="iframe1">
+			<h1 class="h1-learn-more-title text-center">Get inspired learning more about the gym</h1>
+			<div class="row row-video">
+				<div class="col-xs-col-12">
+					<iframe class="embed-responsive" src="https://www.youtube.com/embed/0UEUjQ546_g" name="iframe1">
 					</iframe>
 					<br>
-					<div class="row link-smaller">
-						<div class="col-12">
 
-							<a href="https://www.youtube.com/embed/0UEUjQ546_g" target="iframe1">Link Youtube
-								Motivational</a>
-							<br>
-							<a href="https://www.youtube.com/embed/2U7hY_523eQ" target="iframe1"> Watch our Training
-								from
-								"Beginner to Advanced"</a>
-						</div>
-					</div>
+
+					<a href="https://www.youtube.com/embed/0UEUjQ546_g" target="iframe1">Link Youtube
+						Motivational</a>
+					<br>
+					<a href="https://www.youtube.com/embed/2U7hY_523eQ" target="iframe1"> Watch our Training
+						from
+						"Beginner to Advanced"</a>
+				</div>
+				<div class=" justify-content-start col-xs-12 col-md-6">
+
+
+
+
 				</div>
 			</div>
-		</div>
-		<!-- ----------All text below is written entirely by me ------------ -->
 
-		<div class="container-fluid">
-			<div class="row justify-content-center">
-				<div class="col-xs-4 col-md-6 col-lg-12">
-					<h2 class="melone"> How long will it take me to see some result?</h2>
-					<p class="arancia"> Normally you can expect to notice some results after a couple of weeks.Your
+
+
+
+
+			<!--All text below is written entirely by me -->
+
+
+			<div class="row">
+				<div class=" text-left col-xs-12 col-md-4">
+					<h2 class="mt-4 h2-learn-more text-left"> How long will it take me to see some result?</h2>
+					<p class="mt-4 p-learn-more text-left"> Normally you can expect to notice some results after a
+						couple of weeks.Your
 						posture
 						will improve and your muscle tone as well. It takes three to four months for the muscles to grow
 					</p>
 
-					<h2 class="melone"> You probably asking yourself some questions, such as why you should join our Gym
-						rather than another one, Or perhaps you just want to know what kind of atmoshphere it is going
-						to be
-						in our Gym?</h2>
-					<br>
-
-					<p class="arancia">"We are two guys on our 30's than after a long friendship and many years as
+					<h2 class="mt-4-xs h2-learn-more text-left">Why you should join our Gym!
+						rather than another one</h2>
+					<p class="p-learn-more text-left">"We are two guys on our 30's than after a long friendship and many
+						years as
 						background in this sector as Personal Trainer, we have decide to put together our passion for
 						what
 						we love most, TRAINING and feel good with ourselves to the point to be able to pass this over to
 						others...How does it sound this to you?
-						Yes we are confident that our team or acutally our Family made of friendly and professional
-						qualified persoal Trainers will make you feel the desire to keep coming back as much as you
-						can".
+						We are confident that our team, made of friendly and professional
+						qualified Persoal Trainers will motivate you enough, and you will not wait for your next
+						training session.
 					</p>
 
-					<h2 class="melone"> How this can happen, I been in other gyms and I have never felt that way!!</h2>
 
-					<p class="arancia"> "Well yes we are not new to know this experiences around, that is why we give to
-						every member the possibility to arrange appointment even once a week to discuss about your
-						goals,
-						how you are getting on with everything and help you to achieve whatever is you want
-						to..."<strong class="uppercase">"Remember your mind is everything, if you do not believe you can do something then you can't!!"</strong>
+
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<!-- taken from https://resources.workable.com/fitness-trainer-job-description -->
+					<h2 class="mt-4 h2-learn-more-responsabilies text-center"> Our Responsabilities and Goals</h2>
+					<ul class="mt-4 p-learn-more- text-center">
+						<li> Identify the clients’ fitness level and health
+						</li>
+						<li>Oversee completion of exercise routines </li>
+						<li>Track clients’ physical progress</li>
+						<li>Modify exercise plans based on needs, potential injuries or health issues</li>
+						<li>Conduct individual and group fitness training sessions</li>
+						<li>Adopt a holistic training approach (e.g. cardiovascular exercise, strength)</li>
+						<li>Oversee the use of fitness equipment to ensure clients</li>
+						<li>exercise properly safely</li>
+						<li> Handle nutrition and health-related questions</li>
+						<li>Refer to and promote fitness packages and plans</li>
+						<li>Carry out First Aid and CPR if needed</li>
+						<li>Follow safety and hygiene guidelines</li>
+					</ul>
+					<p class="p-learn-more text-center">
+						<strong class="strong-learn">"Remember your mind is everything, if you do not believe you can do something then you can't! "</strong>
 					</p>
+				</div>
+				<!-- taken from https://active.leeds.gov.uk/health-programmes -->
+				<div class=" text-left col-xs-12 col-md-4">
+					<h2 class="mt-4 text-left h2-learn-more text-left"> We help individual with health problem!</h2>
+					<p class="mt-4 p-learn-more text-left"> Yes we are not an average normal gyms, we are a complete gym
+						with a team that looks to help and
+						support
+						anyone,</p>
+					<p class="p-learn-more text-left">
+						<strong> including the ones with physical problem or that need specific physioterapy exarcise to fast recover
+					from any kind of injuries.</strong></p>
+					<p class="p-learn-more text-left">We supports individuals and groups with health problems and long
+						term
+						health conditions to lead an active, healthy life. Health Programmes delivers a range of
+						activities to support people to self-manage their health conditions through physical activity
+						and support those at risk of falling to improve their strength, balance and coordination.
+						Each activity session is delivered by a qualified and experienced member of staff who
+						have created a supportive and welcoming environment for all participants.
+						If you have any queries about any of our Health Programmes or would like to know more about what
+						support is available to enable you to be more physically active please don't hesitate to get in
+						touch with us.</p>
+				</div>
+			</div>
+
+			<div class="row ">
+				<div class="col-xs-offset-1 col-xs-10">
+
+					<a target="_blank" href="https://en.wikipedia.org/wiki/Exercise#Health_effects">
+						<i class="fab fa-wikipedia-w" aria-hidden="true"> Learn what are the benefits of traininig</i>
+
+					</a>
+					<br>
+					<a target="_blank" href="https://www.nhs.uk/live-well/exercise/10-minute-workouts/">
+                    <i class="fas fa-smile-wink" aria-hidden="true">
+						Stay safe and exercise at home</i>
+</a>
+	<br>
+					<a target="_blank" href="supplement.html">
+                    <i class="fas fa-shopping-cart" aria-hidden="true">
+						Buy our Supplement</i>
+</a>
+
+					<h3 class="h3-learn-more text-center"> We are open 24 hours a day 7 days per week except for
+						festivities</h3>
+					<table class="table table-fluid col ml-2 mr-2">
+						<thead>
+							<tr class="table-success">
+								<th scope="col">Weekly Lesson</th>
+								<th scope="col">Morning from 10am to 12am</th>
+								<th scope="col">Afternoon from 15pm to 17pm</th>
+								<th scope="col">Evening from 19pm to 20pm</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="table-success">
+								<th scope="row">Monday</th>
+								<td>Group Fitness and Aerobic</td>
+								<td>Spinning bicicle</td>
+								<td>Cardio and Fitness</td>
+							</tr>
+							<tr class="table-success">
+								<th scope="row">Tuesday</th>
+								<td>Group Fitness and Aerobic</td>
+								<td>Boxing and Resistance</td>
+								<td>Group Fitness and free weight</td>
+							</tr>
+
+							<tr class="table-success">
+								<th scope="row">Wednesday</th>
+								<td>Yoga class</td>
+								<td>Functional circuit</td>
+								<td>Yoga class</td>
+							</tr>
+
+							<tr class="table-success">
+								<th scope="row">Thursday</th>
+								<td>Body pump and Fitness</td>
+								<td>Cardio and Spinning bicycle</td>
+								<td>Group Fitness and Aerobic</td>
+							</tr>
+
+							<tr class="table-success">
+								<th scope="row">Friday</th>
+								<td>Fitness and Aerobic</td>
+								<td>Yoga</td>
+								<td>Spinning class</td>
+							</tr>
+
+							<tr class="table-success">
+								<th scope="row">Saturday</th>
+								<td>Fitness and Aerobic</td>
+								<td>Boxing</td>
+								<td>Boxing</td>
+							</tr>
+
+							<tr class="table-success">
+								<th scope="row">Sunday</th>
+								<td>Fitness and Aerobic</td>
+								<td>Body pump</td>
+								<td>Self defense class</td>
+							</tr>
+
+						</tbody>
+					</table>
+
 
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!-- ------------The Footer provide all the relevant informations to find the Gym or contact the gym by e-mail also containts all the most popular social links such as: Facebook, Pinterest, Instragram,Linkdin,Twitter and Youtube. I have linked each social icon to the official website as the Gym it is not really existing and so I could not link to the icons the real webpage -->
+
+
+
+
+	<!-- The Footer consist of a container with three columns on Medium, Large screen devices and instead a full column on small and extra-small screen devices.   
+                            It provides all the most important informations to find and contact the Business "the Gym": full address, contact e-mail  and all the most popular social links such as: Facebook, Pinterest, Instragram,Linkdin,Twitter and Youtube. I have linked each social icon to the official website of the relevant social network, becuase the Gym it is not existing I could not link the icons to a real webpage -->
 
 	<footer class="bottom-fixed bg-dark text-white footer-index">
 		<div class="container-fluid container-footer">
@@ -234,66 +362,11 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
 			</div>
 		</div>
 	</footer>
-	<footer class="bottom-fixed bg-dark text-white footer-index">
-		<div class="container-fluid container-footer">
-			<div class="row pt-4 justify-content-between">
-				<div class="col-xs-offset-1-10 col-md-4">
-					<p class="footer-text1"><strong>Address:</strong><br>
-                    283 Lee High Road<br>
-                 SE8 4LZ Lewisham, London.</p>
-				</div>
-				<div class="col-xs-offset-1-10 col-md-4">
-					<p class="footer-text"><strong>E-mail:</strong> <br>   283body.fashion@icloud.com</p>
-				</div>
-				<div class="col-xs-offset-1-10 col-md-4">
-					<p class=" footer-text2 uppercase general-sub">Social</p>
-					<ul class="list-inline social-links">
-						<li class="list-inline-item">
-							<a target="_blank" href="#">
-								<i class="fab fa-facebook" aria-hidden="true"></i>
-								<span class="sr-only">Facebook</span>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="#">
-								<i class="fab fa-twitter" aria-hidden="true"></i>
-								<span class="sr-only">Twitter</span>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="#">
-								<i class="fab fa-linkedin" aria-hidden="true"></i>
-								<span class="sr-only">LinkedIn</span>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="#">
-								<i class="fab fa-pinterest" aria-hidden="true"></i>
-								<span class="sr-only">Pinterest</span>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="#">
-								<i class="fab fa-instagram" aria-hidden="true"></i>
-								<span class="sr-only">Instagram</span>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="www.youtube.com">
-								<i class="fab fa-youtube" aria-hidden="true"></i>
-								<span class="sr-only">YouTube</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!--  The scripts belows are jsdelivr.net, jquery and bootstrap copied and pasted from Bootstrap and are placed to the bottom for better loading performance, instead the cdn is to make sure that the page is always fast on all the networks -->
 
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
+	<!-- The scripts below are jquery and bootstrap copied and pasted from Bootstrap 
+							and are placed to the bottom for better loading performance, instead the cdn "content delivery network" improves the performance of loading of the website -->
+
+
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

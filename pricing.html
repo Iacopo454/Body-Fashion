@@ -11,90 +11,90 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
-		integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/7a1826fcc6.js" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="asset/css/style.css" type="text/css" />
 
-	<!------ this is the name of the Gym that is going to open soon----------->
-	<title>Body Fashion Gym</title>
+	<title>Prices and all memberships available</title>
 </head>
 
+<body>
+	<!--Bootstrap Navbar
+Gives the users the opportunity to navigate easily between all the pages-->
 
-<!-- ---------Bootstrap Navbar
-Gives the users the opportunity to navigate easily between all the pages ---->
-
-<nav class="navbar-fixed-top navbar-expand-lg navbar-dark bg-dark navbar-nav ml-auto">
-	<a class="navbar-brand" href="#"></a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+	<nav class="navbar-fixed-top navbar-expand-lg navbar-dark bg-dark navbar-nav ml-auto">
+		<h2 class="navbar-title text-center font-weight-bold">BODY FASHION</h2>
+		<a class="navbar-brand" href="#"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
+             
         </button>
-	<!--  Menu containing all the navigation pages available on the website -->
-	<div class="collapse navbar-collapse fixed top" id="navbarText">
-		<ul class="navbar-nav mr-auto">
-			<li class="nav-item active">
-				<a class="nav-link" href="index.html">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="meet.html">Meet the staff </a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="pricing.html">Pricing</a>
-			</li>
-			<li class="navbar-item">
-				<a class="nav-link" href="rules.html">The Gym rules</a>
-			</li>
-			<li class="navbar-item">
-				<a class="nav-link" href="learn-more.html">Learn more</a>
-			</li>
-			<!-- ------tag navbar-link to connect the sign up form -->
-			<li class="navbar-item">
-				<a class="nav-link" data-toggle="modal" data-target="#exampleModal"> Sign Up</a>
-				<!-- -----End of tag (taken from Stackoverflow) -->
-			</li>
-		</ul>
-	</div>
-</nav>
+		<!--  Menu containing all the navigation pages available on the website -->
+		<div class="collapse navbar-collapse fixed top" id="navbarText">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="meet.html">Meet the staff </a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="pricing.html">Pricing</a>
+				</li>
+				<li class="navbar-item">
+					<a class="nav-link" href="rules.html">The Gym rules</a>
+				</li>
+				<li class="navbar-item">
+					<a class="nav-link" href="learn-more.html">Learn more</a>
+				</li>
+				<!-- tag navbar-link to connect the sign up form -->
+				<li class="navbar-item">
+					<a class="nav-link" data-toggle="modal" data-target="#exampleModal"> Sign Up</a>
+					<!--End of tag (taken from Stackoverflow) -->
+				</li>
+			</ul>
+		</div>
+	</nav>
 
 
 
-<!----------- Modal for Sing up form taken from Bootstrap.
+	<!-- Modal for Sing up form taken from Bootstrap.
 The Sign up form consist of two placeholders one for the contact e-mail and the other one for the password, at the bottom the form display a Sing in button to confirm the registration once all details are entered.
-The Sign up form it is not fully functional "as I do not have any backend knowledge still", this mean that the form it is not still able to record any details entered after clicking the sign in button---- -->
+The Sign up form it is not fully functional "as I do not have any backend knowledge still", this mean that the form it is not still able to record any details entered after clicking the sign in button-->
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-	aria-hidden="true">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Register</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Register</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-			</div>
-			<div class="modal-body">
+				</div>
+				<div class="modal-body">
 
-				<form>
-					<div class="form-group">
-						<label for="exampleInputEmail1">Email address</label>
-						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-						<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-					</div>
-					<div class="form-group">
-						<label for="exampleInputPassword1">Password</label>
-						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
   </div>
-				</form>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-primary">Sign in</button>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Sign in</button>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
-<body>
+
 	<!-- End of Modal Sign up form from Toggle bar -->
 
 	<div class="alert alert-primary alert-dismissible fade show" role="alert">
@@ -104,13 +104,13 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
     <span aria-hidden="true">&times;</span>
   </button>
 	</div>
-	<!-- --The code below is a  Tab taken from the Bootstrap examples documentation.The Tab consist of three different sections that inform the users of any available promotion that the Gym is currently running, from a basic membership option to the full-membership ------>
+	<!-- The code below is a  Tab taken from the Bootstrap examples documentation.The Tab consist of three different sections that inform the users of any available promotion that the Gym is currently running, from a basic membership option to the full-membership -->
 
 	<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
 		<h2 class="display-4">Pricing</h2>
-		<center>
-			<h3 class="lead header">Hurry up and join our gym today!</h3>
-		</center>
+
+		<h3 class="lead header">Hurry up and join our gym today!</h3>
+
 	</div>
 
 
@@ -124,8 +124,9 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
 				<ul class="list-unstyled mt-3 mb-4 text-left">
 					<li>- Special promotion first week free, full access
 						(except the boxing area)</li>
-					<small class="text-primary">Promotion valid only until the end of July!</small>
 				</ul>
+				<small class="text-primary">Promotion valid only until the end of July!</small>
+
 			</div>
 		</div>
 		<div class="card mb-4 shadow-sm">
@@ -141,7 +142,7 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
 					</li>
 					<li>- One hour each week included with a personal trainer</li>
 				</ul>
-				<!-- --------------------Sign up button modal------------------------ -->
+				<!-- Sign up button modal -->
 				<button type="button" data-toggle="modal" data-target="#exampleModal"
                  class="btn btn-lg .navbar-btn btn-block btn-primary">Sign Up</button>
 			</div>
@@ -162,7 +163,8 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
 		</div>
 	</div>
 
-	<!-- The Footer provide all the relevant informations to find the Gym or contact the gym by e-mail also containts all the most popular social links such as: Facebook, Pinterest, Instragram,Linkdin,Twitter and Youtube. I have linked each social icon to the official website as the Gym it is not really existing and so I could not link to the icons the real webpage   -->
+	<!-- The Footer consist of a container with three columns on Medium, Large screen devices and instead a full column on small and extra-small screen devices.   
+                            It provides all the most important informations to find and contact the Business "the Gym": full address, contact e-mail  and all the most popular social links such as: Facebook, Pinterest, Instragram,Linkdin,Twitter and Youtube. I have linked each social icon to the official website of the relevant social network, becuase the Gym it is not existing I could not link the icons to a real webpage -->
 
 
 
@@ -224,11 +226,9 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
 
 	</footer>
 
-	<!--  The scripts belows are jsdelivr.net, jquery and bootstrap copied and pasted from Bootstrap and are placed to the bottom for better loading performance, instead the cdn is to make sure that the page is always fast on all the networks -->
+	<!-- The scripts below are jquery and bootstrap copied and pasted from Bootstrap 
+							and are placed to the bottom for better loading performance, instead the cdn "content delivery network" improves the performance of loading of the website -->
 
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
