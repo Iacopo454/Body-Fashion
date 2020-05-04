@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto|Fjalla+One&display=swap rel="stylesheet">display:100,200,300,400,500,600,700|Roboto: 100,200,300,400,500,600,700,');
+
+body {
+	font-family: 'Fjalla One', 'Roboto', sans-serif;
+}
+div .img-responsive {
+	height: 80vh;
+}
+
+.navbar-title {
+    color:blue;
+}
+
+/* index.html classes for text on images */
+
+
+.jumbotron-and-Arnold-image-container h1 {
+	color: cornflowerblue;
+}
+
+
+.heading-text-inside-index-file h3 {
+	color: crimson;
+}
+
+.text-on-gym-gym-100-jpg-index-file {
+	color: red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 60px;
+}
+/* jumbotron index.html */
+
+.jumbotron {
+	padding: 5px;
+	margin: 5px;
+}
+
+.jumbotron h1 {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.jumbotron p {
+	font-family: 'Roboto', sans-serif;
+	font-size: larger;
+}
+div .container-supplement {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 160px;
+}
+
+/* this are the styles used on learn-more.html  */
+
+/* this grey dark overlay is to make the Text more readable on learn-more.html "better colour contrast" */
+
+#overlay {
+	position: relative;
+	background-color: rgba(6, 6, 6, 0.5);
+}
+
+.learn {
+	background: url("../images/sereno.jpg") no-repeat;
+	background-size: cover;
+}
+
+.iframe-title {
+	font-family: 'Fjalla One', sans-serif;
+	color: dodgerblue;
+}
+
+
+
+.container-learn-more ul {
+	color: white;
+}
+
+.container-learn-more h2 {
+	color: greenyellow;
+}
+
+.h1-learn-more-title {
+	font-size: 30px;
+	color: dodgerblue;
+	padding-left: 25px;
+}
+
+.heading-table {
+	color: greenyellow;
+}
+
+.h3-learn-more {
+	color: #52d0e4;
+}
+
+
+/* rules.html */
+
+/* headings in rules.html and pricing.html */
+.card-title {
+	color: blue;
+}
+
+
+/* two images, one of them, the smaller is overlapping and it is hidden on small devices */
+
+.palestra-jpg-top-img-in-rule {
+	position: relative;
+}
+
+.blonde-jpg-img-top-in-rule-overlapping  {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	right: 50px;
+	bottom: 50px;
+}
+
+.rules-title {
+	color: red;
+	position: absolute;
+	top: 5px;
+	left: 100px;
+	margin: 3px;
+	padding: 2px;
+}
+
+.rules-container-containing-images {
+	padding: 5px;
+	margin: 5px;
+}
+
+
+/* All footers */
+.footer-index {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 20px;
+	margin: 5px;
+	font-size: 12px;
+}
+
+.container-footer {
+	text-align: center;
+	margin-left: 3px;
+	padding-left: 2px;
+}
+
+/* meet.html */
+.meet-text {
+    margin: 10px 10px 15px 15px;
+    font-size: 22px;
+}
+.images-meet.html {
+    height:200px;
+}
+.container-meet {
+    margin:10px 25px;
+
+}
+
+@media screen and (min-width: 300px) {
+	
+.table-success {
+    border-color: #8fd19e;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.container-meet {
+    width: 100%;
+    margin: 10px 2px;
+}
+
+.p-learn-more {
+    color: #fff;
+    font-size: 15px;
+}
+
+.rules-container {
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.meet-text {
+    margin: 10px 10px 15px 15px;
+    font-size: 16px;
+}
+    div .images-meet.html {
+
+
+    }
+    div .images-meet.html-big {
+
+    }
+
+
+
+    .container-learn-more h2 {
+    color: #52d0e4;
+    font-size: 25px;
+}
+	
+	.h3-learn-more {
+		color: #52d0e4;
+		font-size: 23px;
+	}
+	/* images in index.html sliding in the carousel  */
+	div .img-responsive {
+		height: 35vh;
+	}
+	/* text on the gym image in the index.html */
+	.text-on-gym-image {
+		font-size: 20px;
+	}
+   
+	/* iframe video in learn.html */ 
+.iframe-youtube {
+    position: relative;
+    display: block;
+    width: 280px;
+    height: 190px;
+    left: 40px;
+    overflow: hidden;
+}
+
+}
+@media screen and (min-width: 576px) {
+	/* Images in meet.html modified for better visualization on larger devices  */
+.rules-title {
+    color: red;
+    position: absolute;
+    top: 70px;
+    left: 500px;
+    margin: 7px;
+    padding: 5px;
+    font-size: 45px;
+}
+	.container-learn-more h2 {
+	 color: #52d0e4;
+	font-size: 23px;
+	}
+	/* images in the meet.html adjusted for better user visualization */
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 65%;
+    height: 200px;
+}
+	/* tags for the images inside the carousel in index.html  */
+	div .img-responsive {
+		height: 30vh;
+	}
+
+    /* meet.html position of the images adjusted for better visualization */
+
+
+
+
+}
+@media screen and (min-width: 768px) {
+
+	/* iframe video in learn.html */
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 600px;
+    padding: 0;
+    overflow: hidden;
+    height: 500px;
+    left: 60px;
+}
+
+
+}
+@media screen and (min-width: 924px) {
+
+/* images in the meet.html adjusted for better user visualization */
+
+
+.container-meet-with-all-text-inside {
+    width: 100%;
+    margin: 10px 25px;
+}
+
+.laura-adjustment-heading-and-text {
+    position: relative;
+    top: 23px;
+}
+
+
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    width: 350px;
+    height: 300px;
+}
+	/* iframe video in learn.html */
+.iframe-youtube {
+    height: 500px;
+    position: relative;
+    display: block;
+    width: 700px;
+    padding: 0;
+    overflow: hidden;
+    left: 140px;
+}
+.p-learn-more {
+    color: #fff;
+    font-size: 15px;
+}
+	/* in the index-html */
+	.jumbotron p {
+		font-family: 'Roboto', sans-serif;
+		font-size: 30px;
+	}
+
+	/* in the index.html */
+	div .text-on-gym-image {
+		color: red;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 40px;
+	}
+	/* images sliding in the index.html carousel height reduced */
+	div .img-responsive {
+		height: 40vh;
+	}
+    /* learn-more.html */
+    .container-learn-more h2 {
+    color: #52d0e4;
+    font-size: 25px;
+}
+     .strong-learn {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #f73d4e;
+}
+.p-learn-more {
+    color: #fff;
+    font-size: 15px;
+}
+.container-learn-more ul {
+    color: white;
+    font-size: 15px;
+}
+.table-success {
+    border-color: #8fd19e;
+    padding-left: 30px;
+}
+	
+}
+@media screen and (min-width: 1024px) {
+
+div .img-responsive {
+    height: 90vh;
+}
+
+    martin-image {
+        position:relative;
+        
+    }
+.silvy-image {
+    position: relative;
+    bottom: 23px;
+}
+.laura-image {
+    position: relative;
+    top: 24px;
+}
+
+ .table-success {
+    border-color: #8fd19e;
+    padding-left: 40px;
+}
+}
+@media screen and (min-width: 1200px) {
+
+	/* images inside the carousel in index.html "increased their height" and the size of the text on it  */
+	div .img-responsive {
+		height: 100vh;
+	}
+	div .text-on-gym-image {
+		font-size: 50px;
+	}
+    /* da cancellare forse */
+
+.p-learn-more {
+    color: #fff;
+    font-size: 15px;
+}
+.table-success td {
+    border-color: #8fd19e;
+    /* margin: 100px; */
+    padding-left: 100px;
+}
+.container-meet {
+    width: 100%;
+    margin-left: 120px;
+}
+.h1-learn-more-title {
+    font-size: 70px;
+    color: dodgerblue;
+    padding-left: 25px;
+}
+
+.iframe-youtube {
+        height: 700px;
+    position: relative;
+    display: block;
+    width: 900px;
+    /* padding: 0; */
+    overflow: hidden;
+    left: 100px;
+}
+}
+
+
