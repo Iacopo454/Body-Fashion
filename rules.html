@@ -9,68 +9,70 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
 		type="text/css" />
 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
-		integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/7a1826fcc6.js" crossorigin="anonymous"></script>
 
-	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="asset/css/style.css" type="text/css" />
 
-	<!------ this is the name of the Gym that is going to open soon----------->
-	<title>Body Fashion Gym</title>
+	
+	<title>The Gym rules to respect!</title>
 </head>
 
+<body>
 
-<!-- ---------Bootstrap Navbar
-Gives the users the opportunity to navigate easily between all the pages ---->
+	<!--Bootstrap Navbar
+Gives the users the opportunity to navigate easily between all the pages -->
 
-<nav class="navbar-fixed-top navbar-expand-lg navbar-dark bg-dark navbar-nav ml-auto">
-	<a class="navbar-brand" href="#"></a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+	<nav class="navbar-fixed-top navbar-expand-lg navbar-dark bg-dark navbar-nav ml-auto">
+		<h2 class="navbar-title text-center font-weight-bold">BODY FASHION</h2>
+		<a class="navbar-brand" href="#"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
+           
         </button>
-	<!--  Menu containing all the navigation pages available on the website -->
-	<div class="collapse navbar-collapse fixed top" id="navbarText">
-		<ul class="navbar-nav mr-auto">
-			<li class="nav-item active">
-				<a class="nav-link" href="index.html">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="meet.html">Meet the staff </a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="pricing.html">Pricing</a>
-			</li>
-			<li class="navbar-item">
-				<a class="nav-link" href="rules.html">The Gym rules</a>
-			</li>
-			<li class="navbar-item">
-				<a class="nav-link" href="learn-more.html">Learn more</a>
-			</li>
-			<!-- ------tag navbar-link to connect the sign up form -->
-			<li class="navbar-item">
-				<a class="nav-link" data-toggle="modal" data-target="#exampleModal"> Sign Up</a>
-				<!-- -----End of tag (taken from Stackoverflow) -->
-			</li>
-		</ul>
-	</div>
-</nav>
+		<!--  Menu containing all the navigation pages available on the website -->
+		<div class="collapse navbar-collapse fixed top" id="navbarText">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="meet.html">Meet the staff </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="pricing.html">Pricing</a>
+				</li>
+				<li class="navbar-item active">
+					<a class="nav-link" href="rules.html">The Gym rules</a>
+				</li>
+				<li class="navbar-item">
+					<a class="nav-link" href="learn-more.html">Learn more</a>
+				</li>
+				<!-- tag navbar-link to connect the sign up form -->
+				<li class="navbar-item">
+					<a class="nav-link" data-toggle="modal" data-target="#exampleModal"> Sign Up</a>
+					<!-- End of tag (taken from Stackoverflow) -->
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-<!----------- Modal for Sing up form taken from Bootstrap.
+	<!-- Modal for Sing up form taken from Bootstrap.
 The Sign up form consist of two placeholders one for the contact e-mail and the other one for the password, at the bottom the form display a Sing in button to confirm the registration once all details are entered.
-The Sign up form it is not fully functional "as I do not have any backend knowledge still", this mean that the form it is not still able to record any details entered after clicking the sign in button---- -->
+The Sign up form it is not fully functional "as I do not have any backend knowledge still", this mean that the form it is not still able to record any details entered after clicking the sign in button -->
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-	aria-hidden="true">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Register</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Register</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-			</div>
-			<div class="modal-body">
-				<!--   Email and password placeholders for the Sign in form----------------->
-				<!-... -->
+				</div>
+				<div class="modal-body">
+					<!-- Email and password placeholders for the Sign in form  -->
+
 					<form>
 						<div class="form-group">
 							<label for="exampleInputEmail1">Email address</label>
@@ -82,69 +84,63 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
 							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
   </div>
 					</form>
-			</div>
-			<!--------- Sign in button to confirm the registration after filling the form ------------------->
-			<div class="modal-footer">
-				<button type="button" class="btn btn-primary">Sign in</button>
+				</div>
+
+				<!--Sign in button to confirm the registration after filling the form -->
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Sign in</button>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<!----------------------End of the Nabvar------------------------------>
+	<!-- end of navbar code -->
 
-<body>
 
-	<!-- --------------------Images taken from Yahoo search engine------------- -->
-	<div class=" container-fluid wrapper">
-		<div class="row my-row justify-content-center">
-			<div class="col-xs- col-md-8 col-lg-12">
-				<div class="img1">
-					<img class="mt-4" src="images/palestra.jpg" alt="gym" style="height:400px;width:100%;">
-					<center>
-						<h1 class="titolo mt-4"> THE GYM RULES</h1>
-					</center>
+
+	<!-- Images taken from Yahoo search engine -->
+	<div class=" container-fluid rules-container-containing-images">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="palestra-jpg-top-img-in-rule">
+					<img class="mt-4" src="asset/images/palestra.jpg" alt="gym" style="height:400px;width:100%;">
+					<!-- <center> -->
+					<h1 class="mt-4 rules-title text-center"> THE GYM RULES</h1>
+					<!-- </center> -->
 					<div class="d-none d-md-block">
-						<div class="img2">
-							<img  src="images/blonde-jpg.jpg" class="mt-4" alt="trainer" style="height:250px;width:350px;">
-				</div>
+						<div class="blonde-jpg-img-top-in-rule-overlapping">
+							<img  src="asset/images/blonde-jpg.jpg" class="mt-4" alt="trainer" style="height:250px;width:350px;">
+
+						</div>
+
 						</div>
 					</div>
 				</div>
 			</div>
-
 		</div>
 
-		<!-- All the Rules text is taken from the website https://247fitness.co/------ -->
+		<!-- All the Rules text is taken from the website https://247fitness.co -->
 
-		<div class="container-fluid my-rulesy1-container">
-			<div class="row justify-content-center my-row ">
-				<div class="col-sm-8 offset-1 my-col">
-				</div>
-			</div>
-			<div class="row my-row-rules justify-content-center">
-				<div class="col-12 my-col">
-				</div>
-			</div>
-			<div class="row my-row-rules justify-content-center">
-				<div class="col-12 my-col">
-					<!----------- The text below is the introduction summary to the Gym rules and informations for all the members of things do not do and to follow, The text start with a title saying "Read it carefully"   ------------------- -->
+		<!--The text below is the introduction summary to the Gym rules and informations for all the members of things do not do and to follow, The text start with a title saying "Read it carefully"-->
+		<div class="container-fluid mt-4">
+			<div class="row">
+				<div class="card col-sm-12 col-md-4">
+					<div class="card-header my-0"> </div>
+					<div class="card-body my-0">
+						<h5 class="card-title"> Read it carefully</h5>
+						<p class="card-text text-left"> We want 24/7 Fitness gyms to be nice
+							environments for all our
+							members, so there's
+							a few
+							simple rules we expect everyone to follow. </p>
 
-					<h2 class="card-title"> Read it carefully</h2>
-					<p class="card-text justify text start"> We want 24/7 Fitness gyms to be nice
-						environments for all our
-						members, so there's
-						a few
-						simple rules we expect everyone to follow. </p>
-				</div>
-			</div>
-		</div>
-		<div class="row my-row-rules justify-content-center">
-			<div class="col-sm">
-				<div class="card">
-					<div class="card-body">
-						<h4 class="card-title mt-4">Summary</h4>
-						<ol class="card-text">
-							<li> Be civilised.</li>
+						<h5 class="card-title">Summary</h5>
+						<ol class="card-text text-left">
+							<li> Be civilised</li>
+							<li> Be sociable </li>
+							<li> Respect everyone and be polite.
+                            We do not tolerate any kind of discrimination or anti-social behaviour.
+							</li>
 							<li> Carry a sweat towel and use it.</li>
 							<li>Put weights away after you've used them.
 								Don't drop them or throw them at the wall.</li>
@@ -152,10 +148,9 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
 							<li>Don't shave, dye your hair or eat in the sauna or steam room.</li>
 							<li>Empty your locker when you leave.</li>
 						</ol>
-						<!-- The text below help the users to have informations on how is possible to dress for the Gym, what behaviour is expected and what the Gym does not tollerate-->
 
-						<h4 class="card-title mt-4">Dress for the gym</h4>
-						<p class="card-text">We love that you look great, we want you to look great, but the
+						<h5 class="card-title mt 4">Dress for the gym</h5>
+						<p class="card-text text-left">We love that you look great, we want you to look great, but the
 							gym
 							floor is not the place to whip off your shirt or worse, your shorts! No jeans or
 							clothes with rivets, it damages the equipment and you look like an idiot. Gym
@@ -170,16 +165,24 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
 
 							Failure to follow this very reasonable dress code will result in denial of your
 							workout. </p>
-						<h4 class="card-title mt-4">The Gym rules</h4>
-						<h5>Don’t fingerprint your friends in</h5>
-						<p class="card-text">It seems obvious really as you are on CCTV and will be caught
+
+					</div>
+				</div>
+
+				<!-- second card  -->
+				<div class="card col-sm-12 col-md-4">
+					<div class="card-header"> </div>
+					<div class="card-body">
+						<h5 class="card-title">The Gym rules </h5>
+						<h6 class="card-subtitle">Don’t fingerprint your friends in!</h6>
+						<p class="card-text text-left">It seems obvious really as you are on CCTV and will be caught
 							almost immediately. If you do, then your membership will be suspended until you
 							pay
 							£5.95 day pass for everyone you let in. Good for us. Good for your freeloading
 							friends. Not so good for you. </p>
+						<h5 class="card-title">Be nice</h5>
 
-						<h5> Be nice </h5>
-						<p class="card-text"> Leave other people alone, don’t disrupt other members workouts
+						<p class="card-text text-left">Leave other people alone, don’t disrupt other members workouts
 							and be
 							polite.
 
@@ -188,94 +191,84 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
 							all need a little bleeper sometimes after a heavy set, but keep swearing to a
 							minimum
 							and don’t scream it at the top of your voice!
-							Use the equipment properly </p>
-
-						<h5> Use the equipment properly</h5>
-						<p class="card-text">If you are not sure ask a member of staff or a personal
+							Use the equipment properly.</p>
+						<h5 class="card-title mt-4">Use the equipment properly</h5>
+						<p class="card-text text-left">If you are not sure ask a member of staff or a personal
 							trainer. If you
 							cause damage to any
 							of the equipment due to idiotic behaviour, we will make you pay for it and you
 							will be
-							shocked at just how expensive gym equipment is.</p>
-
-						<h5>Put your weights away </h5>
-						<p class="card-text">The staff are not there to follow you around tidying up after
-							you.
-							You're not a child.</p>
-
-						<h5>Don’t drop your weights</h5>
-						<p class="card-text">It damages the weights, the floor and other peoples toes. If
+							shocked at just how expensive gym equipment can be.
+						</p>
+						<h5 class="card-title">Put your weights away</h5>
+						<p class="card-text text-left">It damages the weights, the floor and other peoples toes. If
 							you can’t
 							put it down properly it’s too heavy for you.</p>
-
-						<h5>Don’t stink! </h5>
+						<h5 class="card-title">Don’t stink! </h5>
 						<p class="card-text">Use deodorant and wash your gym kit. Do you really want to be
 							that
 							guy/girl? </p>
-						<!-- The text below remind the users some common rules to follow up, things do not do in order to keep in the gym a good environment, and how to use the equipments-->
-						<h5>Always know where your towel is</h5>
-						<p>Your towel is just about the most massively useful thing. Please bring a towel
+
+					</div>
+				</div>
+				<!-- third card -->
+
+				<div class="card col-sm-12 col-md-4">
+					<div class="card-header"></div>
+					<div class="card-body">
+						<h5 class="card-title">Always know where your towel is</h5>
+						<p class="card-text text-left">Your towel is just about the most massively useful thing. Please
+							bring a
+							towel
 							and wipe
 							down the machine you have just sweated all over. It's basic manners, no one
 							wants to
-							share your bodily fluids unless they are in a relationship with you. </p>
+							share your bodily fluids unless they are in a relationship with you.</p>
+						<h5 class="card-title">Be careful with your personal items</h5>
+						<p class="card-text text-left"> They are your personal items not ours so we will not take
+							responsibility for
+							them.
+							Bring a
+							good solid lock and put them in a locker and you will be just fine. Reception is
+							not
+							a coat
+							check, please do not leave bags/keys/phones there.</p>
 
-						<h5>Be careful with your personal items</h5>
-						They are your personal items not ours so we will not take responsibility for them.
-						Bring a
-						good solid lock and put them in a locker and you will be just fine. Reception is not
-						a coat
-						check, please do not leave bags/keys/phones there.
-
-						<h5 class="title-text mt-4">Eating and drinking</h5>
-						<p class="card-text">No food or inappropriate drinks on the gym floor and no food or
+						<h5 class="card-title">Eating and drinking</h5>
+						<p class="card-text text-left">No food or inappropriate drinks on the gym floor and no
+							food or
 							drink
 							in the sauna/steam rooms. You're at the gym, not at a restaurant or having a
 							picnic.
 							Obvious really.
 							ls when you're done
-							Stop the treadmills and return the incline to level once you have finished using
+							Stop the treadmills and return the incline to level once you have finished
+							using
 							them.
-							We have all seen what happens if you don’t on YouTube. It's only hilarious if
+							We have all seen what happens if you don’t on YouTube. It's only hilarious
+							if
 							its not
 							you stepping on to a moving treadmill.</p>
 
-						<h5>No unofficial PTs </h5>
-						<p class="card-text">Only rent-paying personal trainers are allowed to provide paid
-							personal
-							training at 24/7 Fitness. Anyone else isn't insured.</p>
 
-						<h5>Report issues quickly</h5>
-						<p class="card-text">Please report any equipment malfunctions, personal injuries or
+
+						<h5 class="card-title">Report issues quickly</h5>
+						<p class="card-text text-left">Please report any equipment malfunctions, personal injuries
+							or
 							specific
 							concerns to the staff immediately. If it's out of hours you can use the
 							emergency
 							phones. </p>
 
-						<h5>Hey texty!! </h5>
-						<p class="card-text">Put your phone down or go and do it somewhere else. The gym
-							machines
-							are not armchairs and holding up someone else’s workout while you play with your
-							phone
-							is simply not on. </p>
-
-						<h5>Don't leave stuff in the lockers when you're not there</h5>
-						<p class="card-text">We will clear them out. Storage facilities are not included in
-							your
-							membership fee.
-
-							To summarise, if you act like a civilised, intelligent member of society you
-							will be
-							absolutely fine. If you behave like an ass we reserve the right to terminate
-							your
-							membership without refund.</p>
 					</div>
+				</div>
+				<div>
 				</div>
 			</div>
 		</div>
 
-
-		<!-- ------------The Footer provide all the relevant informations to find the Gym or contact the gym by e-mail, also containts all the most popular social links such as: Facebook, Pinterest, Instragram,Linkdin,Twitter and Youtube. I have linked each social icon to the official website as the Gym it is not really existing and so I could not link to the icons the real webpage ---->
+		<!-- The Footer consist of a container with three columns on Medium, Large screen devices and instead a full column on small and extra-small screen devices.   
+                            It provides all the most important informations to find and contact the Business "the Gym": full address, contact e-mail  and all the most popular social links such as: Facebook, Pinterest, Instragram,Linkdin,Twitter and Youtube. I have linked each social icon to the official website of the relevant social network, becuase the Gym it is not existing I could not link the icons to a real webpage -->
 
 		<footer class="bottom-fixed bg-dark text-white footer-index">
 			<div class="container-fluid container-footer">
@@ -334,7 +327,8 @@ The Sign up form it is not fully functional "as I do not have any backend knowle
 			</div>
 		</footer>
 
-		<!--  The scripts belows are jsdelivr.net, jquery and bootstrap copied and pasted from Bootstrap and are placed to the bottom for better loading performance, instead the cdn is to make sure that the page is always fast on all the networks -->
+		<!-- The scripts below are jquery and bootstrap copied and pasted from Bootstrap 
+							and are placed to the bottom for better loading performance, instead the cdn "content delivery network" improves the performance of loading of the website -->
 
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
