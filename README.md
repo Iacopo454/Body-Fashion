@@ -20,7 +20,8 @@ In future the promotions on this page may be changed for different ones to attra
 ## Deployment
 The project is deployed to this link <https://github.com/Iacopo454/Body-Fashion>.
 In order to make the project live on the internet, first I have checked that I used all the Git commands: git-status,git-add, git-commit, git push to create the relevant repositories on Github.  
-After this, from the GitHub page <https://www.https://github.com/Iacopo454/Body-Fashion> I clicked at the top right of the page on "Settings" link, then I scroll down to the GitHub Pages section that is designed to host our project pages from the GitHub repositories, and selected the "Master branch" in my case as it is what I been provided from Code Institute for this project, but the project may have many branches to choose, then I been provided with a link that might take few minutes to be active and when it is our site is published at that link. 
+After this, from the GitHub page <https://www.https://github.com/Iacopo454/Body-Fashion> I clicked at the top right of the page on "Settings" link, then I scroll down to the GitHub Pages section that is designed to host our project pages from the GitHub repositories, and selected the "Master branch" in my case as it is what I been provided from Code Institute for this project, but the project may have many branches to choose, then I been provided with a link that might take few minutes to be active and when it is our site is published at that link.
+The published link is <https://iacopo454.github.io/Body-Fashion/>.
 
 ## Technologies used
 * HTML5 and CSS
